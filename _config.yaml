@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: Veterinary and Biological Informatics Lab
 subtitle: Smith College Department of Computer Science
-#description: In the VBIL, we apply computing principles to 
+description: Applying computing to better understand health phenotypes and animal diversity
 header: images/background.jpg
 footer: images/background.jpg
 
