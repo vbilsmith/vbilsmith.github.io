@@ -1,18 +1,18 @@
 # site properties and page defaults
-title: vbilsmith
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+title: Veterinary and Biological Informatics Lab
+subtitle: Smith College Department of Computer Science
+#description: In the VBIL, we apply computing principles to 
 header: images/background.jpg
 footer: images/background.jpg
 
 # site social media and other links
 links:
-  email: contact@vbilsmith.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: hrando@smith.edu
+  orcid: 0000-0001-7688-1770
+  google-scholar: gWtl3GwAAAAJ
   github: vbilsmith
-  twitter: vbilsmith
-  youtube: vbilsmith
+  #twitter: vbilsmith
+  #youtube: vbilsmith
 
 ### jekyll settings
 
