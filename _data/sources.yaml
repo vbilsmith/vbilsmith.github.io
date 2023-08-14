@@ -1,23 +1,67 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+
+- id: doi:10.1101/2023.06.28.546898
+  type: preprint
+  image: https://user-images.githubusercontent.com/8975841/250271905-4eed44ba-528a-4a61-a4ec-fa90d51e61f9.jpg
+      - reproducibility
+      - genetics
+      - dogs
+      
+- id: url:https://icbo-conference.github.io/icbo2022/papers/ICBO-2022_paper_1882.pdf
+  type: conference paper
+  image: https://user-images.githubusercontent.com/8975841/260512613-910f7bcd-2648-48db-8874-d37bca58c8f1.png
+  title: Classifying animal breeds with the vertebrate breed ontology (VBO)
+  authors:
+      - Sabrina Toro
+      - Nicolas Matentzoglu
+      - Kathleen R. Mullen
+      - Nicole Vasilevsky
+      - Halie M. Rando
+      - Melissa Haendel
+      - Christopher J. Mungall
+      - Zhi-Liang Hu
+      - Gregoire Leroy
+      - Imke Tammen
+      - Frank W. Nicholas
+  publisher: Proceedings of the International Conference on Biomedical Ontology 
+  date: "2022-09"
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - ontology
+    - animals
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: doi:10.1016/j.ebiom.2021.103722
+  type: journal paper
+  image: https://www.medrxiv.org/content/medrxiv/early/2021/06/29/2021.06.23.21259416/F1.large.jpg?width=800&height=600&carousel=1
+  tags:
+      - ontology
+      - disease
+      - humans
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: url:http://ceur-ws.org/Vol-2976/paper-2.pdf
+  type: conference paper
+  image: https://user-images.githubusercontent.com/8975841/137757668-cf24b018-5539-4969-965f-305fee56b2d3.png
+  title: An Open-Publishing Response to the COVID-19 Infodemic
+  authors:
+    - Halie M. Rando
+    - Simina M. Boca
+    - Lucy D'Agostino McGowan
+    - Daniel S. Himmelstein
+    - Michael P. Robson
+    - Vincent Rubinetti
+    - Ryan Velazquez
+    - Casey S. Greene
+    - Anthony Gitter
+  publisher: Digital Infrastructures for Scholarly Content Objects 2021
+  date: "2021-09-30"
+  tags:
+    - manubot
+    - reproducibility
+    - documents
+
+- id: 10.1101/2021.03.20.21253896v1
+  image: https://user-images.githubusercontent.com/8975841/112666874-013a3400-8e33-11eb-9be9-5c74f3e397ea.png
+  type: preprint
+  tags:
+      - ontology
+      - disease
+      - humans
+
