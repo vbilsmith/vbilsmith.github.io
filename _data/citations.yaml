@@ -90,27 +90,11 @@
   - Casey S. Greene
   - Anthony Gitter
   publisher: PLOS Computational Biology
-  date: '2020-12-04'
+  date: '2019-06-24'
   link: https://doi.org/c7np
   orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/573782
   title: Sequential compression of gene expression across dimensionalities and methods
     reveals no single best method or dimensionality
@@ -126,30 +110,169 @@
   orcid: 0000-0002-4655-3773
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: doi:10.1101/2023.06.28.546898
+  title: Is a Picture Worth 1,000 SNPs? Effects of User-Submitted Photographs on Ancestry
+    Estimates from Direct-to-Consumer Canine Genetic Tests
   authors:
-  - David N. Nicholson
+  - Halie M. Rando
+  - Kiley Graim
+  - Greg Hampikian
   - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-06-29'
+  link: https://doi.org/gsd85m
+  type: preprint
+  image: https://user-images.githubusercontent.com/8975841/250271905-4eed44ba-528a-4a61-a4ec-fa90d51e61f9.jpg
+    - reproducibility - genetics - dogs
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+- id: url:https://icbo-conference.github.io/icbo2022/papers/ICBO-2022_paper_1882.pdf
+  title: Classifying animal breeds with the vertebrate breed ontology (VBO)
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
+  - Sabrina Toro
+  - Nicolas Matentzoglu
+  - Kathleen R. Mullen
+  - Nicole Vasilevsky
+  - Halie M. Rando
+  - Melissa Haendel
+  - Christopher J. Mungall
+  - Zhi-Liang Hu
+  - Gregoire Leroy
+  - Imke Tammen
+  - Frank W. Nicholas
+  publisher: Proceedings of the International Conference on Biomedical Ontology
+  date: '2022-09-25'
+  link: https://icbo-conference.github.io/icbo2022/papers/ICBO-2022_paper_1882.pdf
+  type: conference paper
+  image: https://user-images.githubusercontent.com/8975841/260512613-910f7bcd-2648-48db-8874-d37bca58c8f1.png
+  tags:
+  - ontology
+  - animals
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.ebiom.2021.103722
+  title: 'Characterizing Long COVID: Deep Phenotype of a Complex Condition'
+  authors:
+  - Rachel R Deer
+  - Madeline A Rock
+  - Nicole Vasilevsky
+  - Leigh Carmody
+  - Halie Rando
+  - Alfred J Anzalone
+  - Marc D Basson
+  - Tellen D Bennett
+  - Timothy Bergquist
+  - Eilis A Boudreau
+  - Carolyn T Bramante
+  - James Brian Byrd
+  - Tiffany J Callahan
+  - Lauren E Chan
+  - Haitao Chu
+  - Christopher G Chute
+  - Ben D Coleman
+  - Hannah E Davis
+  - Joel Gagnier
   - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - William B Hillegass
+  - Ramakanth Kavuluru
+  - Wesley D Kimble
+  - Farrukh M Koraishy
+  - "Sebastian K\xF6hler"
+  - Chen Liang
+  - Feifan Liu
+  - Hongfang Liu
+  - Vithal Madhira
+  - Charisse R Madlock-Brown
+  - Nicolas Matentzoglu
+  - Diego R Mazzotti
+  - Julie A McMurry
+  - Douglas S McNair
+  - Richard A Moffitt
+  - Teshamae S Monteith
+  - Ann M Parker
+  - Mallory A Perry
+  - Emily Pfaff
+  - Justin T Reese
+  - Joel Saltz
+  - Robert A Schuff
+  - Anthony E Solomonides
+  - Julian Solway
+  - Heidi Spratt
+  - Gary S Stein
+  - Anupam A Sule
+  - Umit Topaloglu
+  - George D. Vavougios
+  - Liwei Wang
+  - Melissa A Haendel
+  - Peter N Robinson
+  publisher: eBioMedicine
+  date: '2021-12-01'
+  link: https://doi.org/gnmkm7
+  type: journal paper
+  image: https://www.medrxiv.org/content/medrxiv/early/2021/06/29/2021.06.23.21259416/F1.large.jpg?width=800&height=600&carousel=1
+  tags:
+  - ontology
+  - disease
+  - humans
+  plugin: sources.py
+  file: sources.yaml
+- id: url:http://ceur-ws.org/Vol-2976/paper-2.pdf
+  title: An Open-Publishing Response to the COVID-19 Infodemic
+  authors:
+  - Halie M. Rando
+  - Simina M. Boca
+  - Lucy D'Agostino McGowan
+  - Daniel S. Himmelstein
+  - Michael P. Robson
+  - Vincent Rubinetti
+  - Ryan Velazquez
+  - Casey S. Greene
+  - Anthony Gitter
+  publisher: Digital Infrastructures for Scholarly Content Objects 2021
+  date: '2021-09-30'
+  link: http://ceur-ws.org/Vol-2976/paper-2.pdf
+  type: conference paper
+  image: https://user-images.githubusercontent.com/8975841/137757668-cf24b018-5539-4969-965f-305fee56b2d3.png
+  tags:
+  - manubot
+  - reproducibility
+  - documents
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1101/2021.03.20.21253896
+  title: 'Challenges in defining Long COVID: Striking differences across literature,
+    Electronic Health Records, and patient-reported information'
+  authors:
+  - Halie M. Rando
+  - Tellen D. Bennett
+  - James Brian Byrd
+  - Carolyn Bramante
+  - Tiffany J. Callahan
+  - Christopher G. Chute
+  - Hannah E. Davis
+  - Rachel Deer
+  - Joel Gagnier
+  - Farrukh M Koraishy
+  - Feifan Liu
+  - Julie A. McMurry
+  - Richard A. Moffitt
+  - Emily R. Pfaff
+  - Justin T. Reese
+  - Rose Relevo
+  - Peter N. Robinson
+  - Joel H. Saltz
+  - Anthony Solomonides
+  - Anupam Sule
+  - Umit Topaloglu
+  - Melissa A. Haendel
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-03-26'
+  link: https://doi.org/gjk3ng
+  image: https://user-images.githubusercontent.com/8975841/112666874-013a3400-8e33-11eb-9be9-5c74f3e397ea.png
+  type: preprint
+  tags:
+  - ontology
+  - disease
+  - humans
   plugin: sources.py
   file: sources.yaml
