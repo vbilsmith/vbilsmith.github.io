@@ -1,5 +1,5 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Introduction to Databases
+  subtitle: CSC 230
   group: featured
   image: images/photo.jpg
   link: https://github.com/
@@ -8,8 +8,8 @@
   tags:
     - resource
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Data Structures
+  subtitle: CSC 210
   group: featured
   image: images/photo.jpg
   link: https://github.com/
@@ -18,30 +18,4 @@
   tags:
     - resource
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
