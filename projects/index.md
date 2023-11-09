@@ -14,6 +14,7 @@ Current research projects in the lab include:
 - Analysis of metadata in RNA-Seq repositories
 - Meta-analysis of RNA-Seq from repositories
 - Comparing diversity in genomic data collected from different populations
+<!--Resources: https://www.youtube.com/watch?v=HMOI_lkzW08-->
 
 {% include tags.html tags="publication, resource, website" %}
 
