@@ -6,7 +6,6 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
-
 I am currently interested in speaking to students who are interested in machine learning classification, specifically in terms of either natural langauge processing or image processing. 
 A love for animals is always a plus!
 
