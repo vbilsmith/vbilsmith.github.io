@@ -7,8 +7,13 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+I am currently interested in speaking to students who are interested in machine learning classification, specifically in terms of either natural langauge processing or image processing. 
+A love for animals is always a plus!
+
+Current research projects in the lab include:
+- Analysis of metadata in RNA-Seq repositories
+- Meta-analysis of RNA-Seq from repositories
+- Comparing diversity in genomic data collected from different populations
 
 {% include tags.html tags="publication, resource, website" %}
 
