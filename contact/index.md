@@ -7,27 +7,25 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+For current Smith students who are interested in conducting research, please send me an email and include your resume as well as some information about your computer science, SDS, and/or biology background.
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="Email"
+  link="hrando@smith.edu"
 %}
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="413­585­4497"
+  link="+1-413­585­4497"
 %}
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  tooltip="Bass Hall 109"
+  link="https://maps.app.goo.gl/UNLb1gCmeSGj652V7"
 %}
 
 {% include section.html %}
