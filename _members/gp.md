@@ -1,8 +1,8 @@
 ---
 name: Glenvelis Perez
-image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+image: images/Picture for GitHub.heif
+description: Undergraduate Researcher
+role: Undergraduate
 links:
   email: gperez42@smith.edu
 ---
