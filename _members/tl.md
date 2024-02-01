@@ -1,10 +1,10 @@
 ---
-name: Sarah Johnson
+name: Tana Liu
 image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+description: Undergraduate Researcher
+role: Undergraduate
 links:
-  email: sarah.johnson@gmail.com
+  email: thliu@smith.edu
   twitter: sarahjohnson
 ---
 
