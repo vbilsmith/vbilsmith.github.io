@@ -1,11 +1,11 @@
 ---
-name: Sarah Johnson
+name: Chioma Opara
 image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+description: Unsupervised Learning
+role: Undergraduate Research assistant
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  email: copara@smith.edu
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Hello! I'm Chioma Opara, a first year at Smith College. I enjoy Computer Science and Economics. My current goal is to gain experience in Computer Science research and explore possible career paths within the field.
