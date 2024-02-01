@@ -1,11 +1,11 @@
 ---
-name: Sarah Johnson
+name: Ray Qin
 image: images/photo.jpg
-description: Lead Programmer
+description: ?
 role: programmer
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  email: rqin@smith.edu
+  twitter: /
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
