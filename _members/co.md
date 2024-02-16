@@ -1,6 +1,6 @@
 ---
 name: Chioma Opara
-image: images/photo.jpg
+image: images/ChiomaOpara.jpg
 description: Unsupervised Learning
 role: Undergraduate Research assistant
 links:
