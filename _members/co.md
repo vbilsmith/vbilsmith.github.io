@@ -1,8 +1,8 @@
 ---
 name: Chioma Opara
 image: images/ChiomaOpara.jpg
-description: Unsupervised Learning Project
-role: Undergraduate Research assistant
+description: RA, Unsupervised Learning
+role: undergrad
 links:
   email: copara@smith.edu
 
