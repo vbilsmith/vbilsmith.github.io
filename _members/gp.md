@@ -1,6 +1,6 @@
 ---
 name: Glenvelis Perez
-image: images/Picture for GitHub.heif
+image: images/glenvelis_perez.jpeg
 description: Undergraduate Researcher
 role: Undergraduate
 links:
