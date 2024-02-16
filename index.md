@@ -1,9 +1,9 @@
 ---
 ---
 
-# vbilsmith's Website
+# The Veterinary and Biological Informatics Lab at Smith College
 
-An engaging 1-3 sentence description of your lab.
+Here in tne VBIL within the Computer Science Department at Smith, we are interested in different ways that we can represent complex ideas, especially in the domain of health AI. Projets range from pure bioinformatics to document engineering, all in the interest of more effectively representing complex ideas about the world around us.
 
 {% include section.html %}
 
