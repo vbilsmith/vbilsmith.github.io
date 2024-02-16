@@ -2,7 +2,7 @@
 name: Glenvelis Perez
 image: images/glenvelis_perez.jpeg
 description: RA- Computer Vision
-role: Undergraduate
+role: Undergrad
 links:
   email: gperez42@smith.edu
 ---
