@@ -1,11 +1,10 @@
 ---
 name: Tana Liu
-image: images/photo.jpg
-description: Undergraduate Researcher
-role: Undergraduate
+image: images/tana_liu.jpg
+description: RA- Computer Vision
+role: undergrad
 links:
   email: thliu@smith.edu
-  twitter: sarahjohnson
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
