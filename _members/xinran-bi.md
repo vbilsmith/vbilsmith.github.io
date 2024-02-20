@@ -1,10 +1,10 @@
 ---
 name: Xinran Bi
 image: images/photo.jpg
-role: undergrad
+role: Undergraduate Researcher
 group: alum
 links:
   github: violetbi
 ---
 
-Xinran was the first member of VBIL!
+Xinran completed majors in Mathematical Statistics and Computer Science as a 2024J graduate. Her current research interest lies in the intersection of artificial intelligence and biomedicine. She is originally from Shanghai, China. Outside of academics, she enjoys listening to audio books, learning languages, and cooking.
