@@ -1,6 +1,6 @@
 ---
 name: Xinran Bi
-image: images/photo.jpg
+image: images/XinranBi.jpg
 role: Undergraduate Researcher
 group: alum
 links:
