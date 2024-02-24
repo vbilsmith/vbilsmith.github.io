@@ -1,11 +1,12 @@
 ---
 name: Chioma Opara
 image: images/ChiomaOpara.jpg
-description: RA, Unsupervised Learning
+description: Undergraduate Research Assistant
 role: undergrad
 links:
   email: copara@smith.edu
 
 ---
 
-Hello! I'm Chioma Opara, a first year at Smith College. I enjoy Computer Science and Economics. My current goal is to gain experience in Computer Science research and explore possible career paths within the field.
+Chioma is a first year international student from Nigeria and intends to double major in Computer Science and Quantitative Economics. Her current goal is to explore the possible applications of Machine Learning and to gain experience in Computer Science research. She enjoys creative writing, reading novels, and spontaneous walks.
+
