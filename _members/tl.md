@@ -1,11 +1,9 @@
 ---
-name: Sarah Johnson
+name: Tana Liu
 image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+description: RA - Computer Vision
+role: Undergraduate Student
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  email: thliu@smith.edu
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Tana is a sophomore Computer Science and Statistical & Data Sciences double major. She is from Philadelphia, Pennsylvania but resides in the suburbs of Philly now. Outside of her academic interests, she enjoys fashion, reading, long walks, and finding new artists and genres to listen to.
