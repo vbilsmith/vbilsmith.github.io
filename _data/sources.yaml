@@ -56,21 +56,27 @@
     - reproducibility
     - documents
 - id: 10.1128/mSystems.00122-21
+  tags:
       - manubot
       - COVID-19
 - id: 10.1128/msystems.00095-21 
+  tags:
       - manubot
       - COVID-19
 - id: 10.1128/mSystems.00233-21 
+  tags:
       - manubot
       - COVID-19
 - id: 10.48550/ARXIV.2204.12598 
+  tags:
       - manubot
       - COVID-19
 - id: 10.1128/msystems.00927-22 
+  tags:
       - manubot
       - COVID-19
 - id: 10.1128/msystems.00928-22 
+  tags:
       - manubot
       - COVID-19
 - id: 10.1101/2021.03.20.21253896
@@ -81,10 +87,12 @@
       - disease
       - humans
 - id: 10.3390/genes10060409 
+  tags:
       - foxes
       - genomes
       - machine learning
 - id: 10.3390/genes12010097
+  tags:
       - foxes
       - genomes
       - wildlife
@@ -115,4 +123,4 @@
   tags: 
       - foxes
       - genomes
-      - wildlife
+      - wildlie
