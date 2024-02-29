@@ -3,7 +3,7 @@
 
 # The Veterinary and Biological Informatics Lab at Smith College
 
-Here in tne VBIL within the Computer Science Department at Smith, we are interested in different ways that we can represent complex ideas, especially in the domain of health AI. Projets range from pure bioinformatics to document engineering, all in the interest of more effectively representing complex ideas about the world around us.
+Here in the VBIL within the Computer Science Department at Smith, we are interested in different ways that we can represent complex ideas, especially in the domain of health AI. Projets range from pure bioinformatics to document engineering, all in the interest of more effectively representing complex ideas about the world around us.
 
 {% include section.html %}
 
@@ -11,8 +11,7 @@ Here in tne VBIL within the Computer Science Department at Smith, we are interes
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+Learn more about our research by browsing our publications.
 {%
   include button.html
   link="research"
@@ -34,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Check back in the future for more information about specific lab projects.
 
 {%
   include button.html
@@ -59,7 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Smith students of all years and many different majors are contributing to our ongoing research in bioinformatics, health AI, document engineering, and more.
 
 {%
   include button.html
