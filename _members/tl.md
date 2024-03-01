@@ -2,7 +2,7 @@
 name: Tana Liu
 image: images/photo.jpg
 description: RA - Computer Vision
-role: Undergraduate Student
+role: undergrad
 links:
   email: thliu@smith.edu
 ---
