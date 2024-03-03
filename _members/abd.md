@@ -1,8 +1,8 @@
 ---
 name: Angelica Brito Diaz 
-image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+image: 
+description: RA - Dog Genetics
+role: undergrad
 links:
   email: abritodiaz@smith.edu
 ---
