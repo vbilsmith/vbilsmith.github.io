@@ -13,7 +13,10 @@
   link: https://doi.org/gsd85m
   type: preprint
   image: https://user-images.githubusercontent.com/8975841/250271905-4eed44ba-528a-4a61-a4ec-fa90d51e61f9.jpg
-    - reproducibility - genetics - dogs
+  tags:
+  - reproducibility
+  - genetics
+  - dogs
   plugin: sources.py
   file: sources.yaml
 - id: url:https://icbo-conference.github.io/icbo2022/papers/ICBO-2022_paper_1882.pdf
@@ -38,6 +41,7 @@
   tags:
   - ontology
   - animals
+  - domestication
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.ebiom.2021.103722
@@ -594,6 +598,6 @@
   tags:
   - foxes
   - genomes
-  - wildlie
+  - wildlife
   plugin: sources.py
   file: sources.yaml
