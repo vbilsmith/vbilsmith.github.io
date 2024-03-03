@@ -1,7 +1,7 @@
 ---
-name: Angelica Brito Diaz 
+name: Angelica Brito Diaz '26
 image: 
-description: RA - Dog Genetics
+description: Undergraduate Researcher
 role: undergrad
 links:
   email: abritodiaz@smith.edu

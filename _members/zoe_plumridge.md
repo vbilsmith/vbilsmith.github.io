@@ -1,7 +1,7 @@
 ---
-name: Zoe Plumridge
+name: Zoe Plumridge '26
 image: 
-description: RA
+description: Undergraduate Researcher
 role: undergrad
 links:
 ---

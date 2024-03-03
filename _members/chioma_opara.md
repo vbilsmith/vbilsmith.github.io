@@ -1,7 +1,7 @@
 ---
-name: Chioma Opara
+name: Chioma Opara '27
 image: images/ChiomaOpara.jpg
-description: Undergraduate Research Assistant
+description: Undergraduate Researcher
 role: undergrad
 links:
   email: copara@smith.edu

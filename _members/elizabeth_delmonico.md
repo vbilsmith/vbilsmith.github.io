@@ -1,7 +1,7 @@
 ---
-name: Lizzie DelMonico
+name: Lizzie DelMonico '26
 image: images/elizabeth-delmonico.jpg
-description: RA
+description: Undergraduate Researcher
 role: undergrad
 links:
 ---

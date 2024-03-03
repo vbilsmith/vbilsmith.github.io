@@ -1,7 +1,7 @@
 ---
-name: Ray Qin
+name: Ray Qin '25
 image: 
-description: RA - Dog Genetics
+description: Undergraduate Researcher
 role: undergrad
 links:
   email: rqin@smith.edu

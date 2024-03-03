@@ -1,5 +1,5 @@
 ---
-name: Xinran Bi
+name: Xinran Bi '24J
 image: images/XinranBi.jpg
 role: undergrad
 group: alum
