@@ -1,6 +1,7 @@
 - id: doi:10.1101/2023.06.28.546898
   type: preprint
   image: https://user-images.githubusercontent.com/8975841/250271905-4eed44ba-528a-4a61-a4ec-fa90d51e61f9.jpg
+  tags:
       - reproducibility
       - genetics
       - dogs
@@ -26,6 +27,7 @@
   tags:
     - ontology
     - animals
+    - domestication
 
 - id: doi:10.1016/j.ebiom.2021.103722
   type: journal paper
@@ -123,4 +125,4 @@
   tags: 
       - foxes
       - genomes
-      - wildlie
+      - wildlife
