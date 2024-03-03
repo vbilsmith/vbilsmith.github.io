@@ -129,7 +129,7 @@
   - documents
   plugin: sources.py
   file: sources.yaml
-- id: 10.1128/mSystems.00122-21
+- id: doi:10.1128/mSystems.00122-21
   title: Dietary Supplements and Nutraceuticals under Investigation for COVID-19 Prevention
     and Treatment
   authors:
@@ -144,7 +144,7 @@
   - COVID-19
   plugin: sources.py
   file: sources.yaml
-- id: 10.1128/msystems.00095-21
+- id: doi:10.1128/msystems.00095-21
   title: Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through Analysis
     of Viral Genomics and Structure
   authors:
@@ -189,7 +189,7 @@
   - COVID-19
   plugin: sources.py
   file: sources.yaml
-- id: 10.1128/mSystems.00233-21
+- id: doi:10.1128/mSystems.00233-21
   title: Identification and Development of Therapeutics for COVID-19
   authors:
   - Halie M. Rando
@@ -223,18 +223,31 @@
   - COVID-19
   plugin: sources.py
   file: sources.yaml
-- id: arxiv:2204.12598v2
+- id: doi:10.48550/ARXIV.2204.12598
   title: Molecular and Serologic Diagnostic Technologies for SARS-CoV-2
-  authors: []
+  authors:
+  - Halie M. Rando
+  - Christian Brueffer
+  - Ronan Lordan
+  - Anna Ada Dattoli
+  - David Manheim
+  - Jesse G. Meyer
+  - Ariel I. Mundo
+  - Dimitri Perrin
+  - David Mai
+  - Nils Wellhausen
+  - COVID-19 Review Consortium
+  - Anthony Gitter
+  - Casey S. Greene
   publisher: arXiv
-  date: '2022-04-26'
-  link: https://arxiv.org/abs/2204.12598v2
+  date: '2022-01-01'
+  link: https://doi.org/gp4ftc
   tags:
   - manubot
   - COVID-19
   plugin: sources.py
   file: sources.yaml
-- id: 10.1128/msystems.00927-22
+- id: doi:10.1128/msystems.00927-22
   title: Application of Traditional Vaccine Development Strategies to SARS-CoV-2
   authors:
   - Halie M. Rando
@@ -306,7 +319,7 @@
   - COVID-19
   plugin: sources.py
   file: sources.yaml
-- id: 10.1128/msystems.00928-22
+- id: doi:10.1128/msystems.00928-22
   title: The Coming of Age of Nucleic Acid Vaccines during COVID-19
   authors:
   - Halie M. Rando
@@ -378,7 +391,7 @@
   - COVID-19
   plugin: sources.py
   file: sources.yaml
-- id: 10.1101/2021.03.20.21253896
+- id: doi:10.1101/2021.03.20.21253896
   title: 'Challenges in defining Long COVID: Striking differences across literature,
     Electronic Health Records, and patient-reported information'
   authors:
@@ -415,7 +428,7 @@
   - humans
   plugin: sources.py
   file: sources.yaml
-- id: 10.3390/genes10060409
+- id: doi:10.3390/genes10060409
   title: The Red Fox Y-Chromosome in Comparative Context
   authors:
   - Halie M. Rando
@@ -434,7 +447,7 @@
   - machine learning
   plugin: sources.py
   file: sources.yaml
-- id: 10.3390/genes12010097
+- id: doi:10.3390/genes12010097
   title: Sequencing Red Fox Y Chromosome Fragments to Develop Phylogenetically Informative
     SNP Markers and Glimpse Male-Specific Trans-Pacific Phylogeography
   authors:
@@ -454,7 +467,7 @@
   - wildlife
   plugin: sources.py
   file: sources.yaml
-- id: 10.1111/age.12755
+- id: doi:10.1111/age.12755
   title: "Four structural variants associated with human\u2010directed sociability\
     \ in dogs are not found in tame red foxes (<i>Vulpes vulpes</i>)"
   authors:
@@ -477,7 +490,7 @@
   - domestication
   plugin: sources.py
   file: sources.yaml
-- id: 10.1038/s41559-018-0611-6
+- id: doi:10.1038/s41559-018-0611-6
   title: Red fox genome assembly identifies genomic regions associated with tame and
     aggressive behaviours
   authors:
@@ -514,7 +527,7 @@
   - domestication
   plugin: sources.py
   file: sources.yaml
-- id: 10.3390/genes9060308
+- id: doi:10.3390/genes9060308
   title: Construction of Red Fox Chromosomal Fragments from the Short-Read Genome
     Assembly
   authors:
@@ -543,7 +556,7 @@
   - high-performance computing
   plugin: sources.py
   file: sources.yaml
-- id: 10.1002/ece3.3583
+- id: doi:10.1002/ece3.3583
   title: "Development of a genotype\u2010by\u2010sequencing immunogenetic assay as\
     \ exemplified by screening for variation in red fox with and without endemic rabies\
     \ exposure"
@@ -563,7 +576,7 @@
   - wildlife
   plugin: sources.py
   file: sources.yaml
-- id: 10.1093/jhered/esx066
+- id: doi:10.1093/jhered/esx066
   title: Y-Chromosome Markers for the Red Fox
   authors:
   - Halie M Rando
