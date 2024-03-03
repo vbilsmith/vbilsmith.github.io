@@ -1,8 +1,8 @@
 ---
 name: Ray Qin
 image: images/photo.jpg
-description: ?
-role: programmer
+description: RA - Dog Genetics
+role: undergrad
 links:
   email: rqin@smith.edu
   twitter: /
