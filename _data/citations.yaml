@@ -223,25 +223,12 @@
   - COVID-19
   plugin: sources.py
   file: sources.yaml
-- id: 10.48550/ARXIV.2204.12598
+- id: arxiv:2204.12598v2
   title: Molecular and Serologic Diagnostic Technologies for SARS-CoV-2
-  authors:
-  - Halie M. Rando
-  - Christian Brueffer
-  - Ronan Lordan
-  - Anna Ada Dattoli
-  - David Manheim
-  - Jesse G. Meyer
-  - Ariel I. Mundo
-  - Dimitri Perrin
-  - David Mai
-  - Nils Wellhausen
-  - COVID-19 Review Consortium
-  - Anthony Gitter
-  - Casey S. Greene
+  authors: []
   publisher: arXiv
-  date: '2022-04-28'
-  link: https://doi.org/gp4ftc
+  date: '2022-04-26'
+  link: https://arxiv.org/abs/2204.12598v2
   tags:
   - manubot
   - COVID-19
