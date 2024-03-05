@@ -1,7 +1,7 @@
 ---
-name: Tana Liu
+name: Tana Liu '26
 image: images/tana_liu.jpg
-description: RA- Computer Vision
+description: Undergraduate Researcher
 role: undergrad
 links:
   email: thliu@smith.edu

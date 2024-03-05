@@ -1,6 +1,7 @@
 - id: doi:10.1101/2023.06.28.546898
   type: preprint
   image: https://user-images.githubusercontent.com/8975841/250271905-4eed44ba-528a-4a61-a4ec-fa90d51e61f9.jpg
+  tags:
       - reproducibility
       - genetics
       - dogs
@@ -26,6 +27,7 @@
   tags:
     - ontology
     - animals
+    - domestication
 
 - id: doi:10.1016/j.ebiom.2021.103722
   type: journal paper
@@ -55,72 +57,72 @@
     - manubot
     - reproducibility
     - documents
-- id: 10.1128/mSystems.00122-21
+- id: doi:10.1128/mSystems.00122-21
   tags:
       - manubot
       - COVID-19
-- id: 10.1128/msystems.00095-21 
+- id: doi:10.1128/msystems.00095-21 
   tags:
       - manubot
       - COVID-19
-- id: 10.1128/mSystems.00233-21 
+- id: doi:10.1128/mSystems.00233-21 
   tags:
       - manubot
       - COVID-19
-- id: 10.48550/ARXIV.2204.12598 
+- id: doi:10.48550/ARXIV.2204.12598  
   tags:
       - manubot
       - COVID-19
-- id: 10.1128/msystems.00927-22 
+- id: doi:10.1128/msystems.00927-22 
   tags:
       - manubot
       - COVID-19
-- id: 10.1128/msystems.00928-22 
+- id: doi:10.1128/msystems.00928-22 
   tags:
       - manubot
       - COVID-19
-- id: 10.1101/2021.03.20.21253896
+- id: doi:10.1101/2021.03.20.21253896
   image: https://user-images.githubusercontent.com/8975841/112666874-013a3400-8e33-11eb-9be9-5c74f3e397ea.png
   type: preprint
   tags:
       - ontology
       - disease
       - humans
-- id: 10.3390/genes10060409 
+- id: doi:10.3390/genes10060409 
   tags:
       - foxes
       - genomes
       - machine learning
-- id: 10.3390/genes12010097
+- id: doi:10.3390/genes12010097
   tags:
       - foxes
       - genomes
       - wildlife
-- id: 10.1111/age.12755 
+- id: doi:10.1111/age.12755 
   tags:
       - foxes
       - genomes
       - dogs
       - behavior
       - domestication
-- id: 10.1038/s41559-018-0611-6
+- id: doi:10.1038/s41559-018-0611-6
   tags:
       - foxes
       - genomes
       - behavior
       - domestication
-- id: 10.3390/genes9060308
+- id: doi:10.3390/genes9060308
   tags:
       - foxes
       - genomes
       - high-performance computing
-- id: 10.1002/ece3.3583
+- id: doi:10.1002/ece3.3583
   tags:
       - foxes
       - genomes
       - wildlife
-- id: 10.1093/jhered/esx066
+- id: doi:10.1093/jhered/esx066
   tags: 
       - foxes
       - genomes
-      - wildlie
+      - wildlife

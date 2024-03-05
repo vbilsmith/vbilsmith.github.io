@@ -1,7 +1,7 @@
 ---
-name: Xinran Bi
+name: Xinran Bi '24J
 image: images/XinranBi.jpg
-role: Undergraduate Researcher
+role: undergrad
 group: alum
 links:
   github: violetbi
