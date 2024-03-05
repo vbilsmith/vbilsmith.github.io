@@ -70,6 +70,7 @@
       - manubot
       - COVID-19
 - id: doi:10.48550/ARXIV.2204.12598  
+  image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
       - manubot
       - COVID-19
