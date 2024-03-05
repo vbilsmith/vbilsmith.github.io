@@ -246,6 +246,7 @@
   publisher: arXiv
   date: '2022-01-01'
   link: https://doi.org/gp4ftc
+  image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
   - manubot
   - COVID-19
