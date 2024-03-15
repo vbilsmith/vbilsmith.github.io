@@ -451,6 +451,7 @@
   publisher: Genes
   date: '2019-05-28'
   link: https://doi.org/gk67ng
+  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
   tags:
   - foxes
   - genomes
@@ -471,6 +472,7 @@
   publisher: Genes
   date: '2021-01-14'
   link: https://doi.org/gtj95c
+  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
   tags:
   - foxes
   - genomes
@@ -492,6 +494,7 @@
   publisher: Animal Genetics
   date: '2018-12-10'
   link: https://doi.org/gtj95d
+  image: null
   tags:
   - foxes
   - genomes
