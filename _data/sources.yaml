@@ -58,26 +58,32 @@
     - reproducibility
     - documents
 - id: doi:10.1128/mSystems.00122-21
+  image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
       - manubot
       - COVID-19
 - id: doi:10.1128/msystems.00095-21 
+  image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
       - manubot
       - COVID-19
-- id: doi:10.1128/mSystems.00233-21 
+- id: doi:10.1128/mSystems.00233-21
+  image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
       - manubot
       - COVID-19
 - id: doi:10.48550/ARXIV.2204.12598  
+  image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
       - manubot
       - COVID-19
 - id: doi:10.1128/msystems.00927-22 
+  image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
       - manubot
       - COVID-19
 - id: doi:10.1128/msystems.00928-22 
+  image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
       - manubot
       - COVID-19
