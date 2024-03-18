@@ -1,6 +1,6 @@
 ---
 name: Angelica Brito Diaz '26
-image: 
+image: images/AngelicaBritoDiaz.jpg 
 description: Undergraduate Researcher
 role: undergrad
 links:

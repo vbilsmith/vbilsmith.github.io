@@ -25,7 +25,7 @@ Learn more about our research by browsing our publications.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/thumbnails/dogproject.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -48,7 +48,7 @@ Check back in the future for more information about specific lab projects.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/thumbnails/humanPCA.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -73,7 +73,7 @@ Smith students of all years and many different majors are contributing to our on
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/labPhoto-2024-03.jpg"
   link="team"
   title="Our Team"
   text=text

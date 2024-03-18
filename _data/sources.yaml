@@ -95,16 +95,19 @@
       - disease
       - humans
 - id: doi:10.3390/genes10060409 
+  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
   tags:
       - foxes
       - genomes
       - machine learning
 - id: doi:10.3390/genes12010097
+  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png 
   tags:
       - foxes
       - genomes
       - wildlife
-- id: doi:10.1111/age.12755 
+- id: doi:10.1111/age.12755
+  image: 
   tags:
       - foxes
       - genomes
