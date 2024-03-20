@@ -95,7 +95,7 @@
       - disease
       - humans
 - id: doi:10.3390/genes10060409 
-  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
+  image: images/thumbnails/sequencing_red_fox.png
   tags:
       - foxes
       - genomes
