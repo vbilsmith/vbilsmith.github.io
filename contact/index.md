@@ -34,8 +34,7 @@ For current Smith students who are interested in conducting research, please sen
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/smithcollege.jpg"
 %}
 
 {% endcapture %}
@@ -44,8 +43,7 @@ For current Smith students who are interested in conducting research, please sen
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/labPhoto-2024-03.jpg"
 %}
 
 {% endcapture %}
