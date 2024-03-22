@@ -451,7 +451,7 @@
   publisher: Genes
   date: '2019-05-28'
   link: https://doi.org/gk67ng
-  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
+  image: images/thumbnails/sequencing_red_fox.png
   tags:
   - foxes
   - genomes
@@ -494,7 +494,7 @@
   publisher: Animal Genetics
   date: '2018-12-10'
   link: https://doi.org/gtj95d
-  image: null
+  image: images/thumbnails/Four_structural_variants.png
   tags:
   - foxes
   - genomes
@@ -533,6 +533,7 @@
   publisher: Nature Ecology &amp; Evolution
   date: '2018-08-06'
   link: https://doi.org/csvn
+  image: images/thumbnails/red_fox_genome_assembly.png
   tags:
   - foxes
   - genomes
@@ -563,6 +564,7 @@
   publisher: Genes
   date: '2018-06-20'
   link: https://doi.org/gf4p6z
+  image: images/thumbnails/red_fox_chromosomal_fragments.png
   tags:
   - foxes
   - genomes
@@ -583,6 +585,7 @@
   publisher: Ecology and Evolution
   date: '2017-12-02'
   link: https://doi.org/gctwp9
+  image: images/thumbnails/immunogenetic_assay.png
   tags:
   - foxes
   - genomes
@@ -604,6 +607,7 @@
   publisher: Journal of Heredity
   date: '2017-08-14'
   link: https://doi.org/gbt6tq
+  image: images/thumbnails/y_chromosome_markers.png
   tags:
   - foxes
   - genomes

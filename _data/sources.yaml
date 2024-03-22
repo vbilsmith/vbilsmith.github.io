@@ -95,7 +95,7 @@
       - disease
       - humans
 - id: doi:10.3390/genes10060409 
-  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
+  image: images/thumbnails/sequencing_red_fox.png
   tags:
       - foxes
       - genomes
@@ -107,7 +107,7 @@
       - genomes
       - wildlife
 - id: doi:10.1111/age.12755
-  image: 
+  image: images/thumbnails/Four_structural_variants.png 
   tags:
       - foxes
       - genomes
@@ -115,22 +115,26 @@
       - behavior
       - domestication
 - id: doi:10.1038/s41559-018-0611-6
+  image: images/thumbnails/red_fox_genome_assembly.png 
   tags:
       - foxes
       - genomes
       - behavior
       - domestication
 - id: doi:10.3390/genes9060308
+  image: images/thumbnails/red_fox_chromosomal_fragments.png 
   tags:
       - foxes
       - genomes
       - high-performance computing
 - id: doi:10.1002/ece3.3583
+  image: images/thumbnails/immunogenetic_assay.png
   tags:
       - foxes
       - genomes
       - wildlife
 - id: doi:10.1093/jhered/esx066
+  image: images/thumbnails/y_chromosome_markers.png
   tags: 
       - foxes
       - genomes
