@@ -1,6 +1,6 @@
 ---
 name: Hildana Shiferaw '25
-image: 
+image: images/hildana-shiferaw.jpg 
 description: Undergraduate Researcher
 role: undergrad
 links:

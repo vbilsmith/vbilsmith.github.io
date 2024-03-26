@@ -1,17 +1,17 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2023.06.28.546898
-  title: Is a Picture Worth 1,000 SNPs? Effects of User-Submitted Photographs on Ancestry
-    Estimates from Direct-to-Consumer Canine Genetic Tests
+- id: doi:10.2460/javma.23.07.0372
+  title: Many direct-to-consumer canine genetic tests can identify the breed of purebred
+    dogs
   authors:
   - Halie M. Rando
   - Kiley Graim
   - Greg Hampikian
   - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-06-29'
-  link: https://doi.org/gsd85m
-  type: preprint
+  publisher: Journal of the American Veterinary Medical Association
+  date: '2024-02-27'
+  link: https://doi.org/gtn72p
+  type: journal paper
   image: https://user-images.githubusercontent.com/8975841/250271905-4eed44ba-528a-4a61-a4ec-fa90d51e61f9.jpg
   tags:
   - reproducibility
