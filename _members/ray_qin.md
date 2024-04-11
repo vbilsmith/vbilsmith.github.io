@@ -1,6 +1,6 @@
 ---
 name: Ray Qin '25
-image: 
+image: images/RayQin.jpg
 description: Undergraduate Researcher
 role: undergrad
 links:
