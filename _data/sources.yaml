@@ -1,3 +1,11 @@
+- id: doi:10.1093/jhered/esae022
+  type: journal paper
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jhered/PAP/10.1093_jhered_esae022/1/m_esae022_fig1.jpeg
+  tags:
+      - domestication
+      - foxes
+      - genomes
+      - wildlife
 - id: doi:10.2460/javma.23.07.0372
   type: journal paper
   image: https://user-images.githubusercontent.com/8975841/250271905-4eed44ba-528a-4a61-a4ec-fa90d51e61f9.jpg
