@@ -10,7 +10,8 @@ links:
   orcid: 0000-0001-7688-1770
 ---
 
-Dr. Halie Rando is an informatician who specifically focuses on identifying new ways to think about non-traditional animal models and veterinary medical data to gain new perspectives on animal and human health and biological diversity. 
-She received her PhD in Informatics from the University of Illinois at Urbana-Champaign in 2019, where she was one of the main bioinformatics working on the famous Russian Farm Fox Experiment, where foxes have been bred since the 1950s to show extreme behaviors, including tame, dog-like behavior. 
-In 2020, she joined Dr. Casey Greene's biological data science lab at the University of Pennsylvania and the University of Colorado, where she focused on adapating Manubot (software for collaborative writing) for biological audiences.
-At Smith, she is excited to work with students interested in any combination of computer science, data science, biology, and psychology.
+Dr. Halie Rando is an informatician who is interested in identifying new opportunities to use computer science and data science to critically examine our approach to biomedical research.
+Right now, she is particularly interested in non-traditional animal models and veterinary medicine. 
+Dr. Rando received her PhD in Informatics from the University of Illinois at Urbana-Champaign in 2019, where she worked with [Dr. Anna Kukekova](https://publish.illinois.edu/kukekova-lab/) to develop a bioinformatic perspective on the famous Russian Farm Fox Experiment, where foxes have been bred since the 1950s to show extreme behaviors, including tame, dog-like behavior. 
+In 2020, she joined [Dr. Casey Greene's biological data science lab](https://www.greenelab.com) at the University of Pennsylvania and later the University of Colorado Anschutz Medical Campus. In Dr. Greene's lab, Halie focused on adapating Manubot (software for collaborative writing) to support fast-moving projects related to COVID-19 and on evaluating the similarities and differences between various direct-to-consumer dog genetic tests.
+At Smith, she is an Assistant Professor in the Department of Computer Science, where she teaches Data Structures (CSC 210) as well as upper-level coursework in databases (CSC 230) and health AI (CSC344bd).
