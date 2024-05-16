@@ -1,21 +1,26 @@
 - title: Introduction to Databases
   subtitle: CSC 230
-  group: featured
+  group: 
+    - upcoming
+    - current
+    - past
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: In this course, students learn to think critically about data storage and retrieval in the context of how data has changed from the 1970s to today.
   tags:
-    - resource
+    - Fall 2023
+    - Spring 2025
 
 - title: Data Structures
   subtitle: CSC 210
-  group: featured
+  group: 
+    - upcoming
+    - past
+    - current
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: In CSC 210, students engage deeply with the fundamental data structures including arrays, lists, queues, stacks, maps, graphs, and trees. By the end of the semester, students can make informed decisions about the pros and cons of different possible implementations of their ideas.
   tags:
-    - resource
+    - Fall 2023
+    - Spring 2024
+    - Fall 2024
 
 
