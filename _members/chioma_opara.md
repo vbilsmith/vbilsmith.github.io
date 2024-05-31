@@ -8,5 +8,5 @@ links:
 
 ---
 
-Chioma is a first year international student from Nigeria and intends to double major in Computer Science and Quantitative Economics. Her current goal is to explore the possible applications of Machine Learning and to gain experience in Computer Science research. She enjoys creative writing, reading novels, and spontaneous walks.
+Chioma is an international student from Nigeria double majoring in Computer Science and Quantitative Economics. Her current goal is to explore the possible applications of Machine Learning and to gain experience in academic research. She's deeply committed to promoting access to educational resources in underrepresented communties and has volunteered as a tutor severally. She enjoys journaling, reading novels, public speaking and spontaneous walks. 
 
