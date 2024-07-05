@@ -1,17 +1,34 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
 - id: doi:10.1093/jhered/esae022
-  title: pendingpublications
-  authors: []
-  publisher: ''
-  date: ''
+  title: 'Missing history of a modern domesticate: Historical demographics and genetic
+    diversity in farm-bred red fox populations'
+  authors:
+  - Halie M Rando
+  - Emmarie P Alexander
+  - Sophie Preckler-Quisquater
+  - Cate B Quinn
+  - Jeremy T Stutchman
+  - Jennifer L Johnson
+  - Estelle R Bastounes
+  - Beata Horecka
+  - Kristina L Black
+  - Michael P Robson
+  - Darya V Shepeleva
+  - Yury E Herbeck
+  - Anastasiya V Kharlamova
+  - Lyudmila N Trut
+  - Jonathan N Pauli
+  - Benjamin N Sacks
+  - Anna V Kukekova
+  publisher: Journal of Heredity
+  date: '2024-04-16'
   link: https://doi.org/gtq55b
   type: journal paper
   image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jhered/PAP/10.1093_jhered_esae022/1/m_esae022_fig1.jpeg
   tags:
   - domestication
   - foxes
-  - genomes
   - wildlife
   plugin: sources.py
   file: sources.yaml
@@ -560,22 +577,22 @@
   title: Construction of Red Fox Chromosomal Fragments from the Short-Read Genome
     Assembly
   authors:
-  - Halie Rando
+  - Halie M. Rando
   - "Marta Farr\xE9"
-  - Michael Robson
-  - Naomi Won
-  - Jennifer Johnson
+  - Michael P. Robson
+  - Naomi B. Won
+  - Jennifer L. Johnson
   - Ronak Buch
-  - Estelle Bastounes
+  - Estelle R. Bastounes
   - Xueyan Xiang
   - Shaohong Feng
   - Shiping Liu
   - Zijun Xiong
   - Jaebum Kim
   - Guojie Zhang
-  - Lyudmila Trut
-  - Denis Larkin
-  - Anna Kukekova
+  - Lyudmila N. Trut
+  - Denis M. Larkin
+  - Anna V. Kukekova
   publisher: Genes
   date: '2018-06-20'
   link: https://doi.org/gf4p6z
