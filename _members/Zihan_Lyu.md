@@ -6,6 +6,7 @@ role: undergrad
 aliases:
   - Zihan Lyu
 links:
+  orcid: 0009-0002-5325-6838
   email: llyu69@smith.edu
   LinkedIn: https://www.linkedin.com/in/zihan-lyu/
 ---
