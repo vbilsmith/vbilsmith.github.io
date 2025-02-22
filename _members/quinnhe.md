@@ -3,6 +3,9 @@ name: Yixuan He '26J
 image: images/quinn_he.jpg
 description: Undergraduate Researcher
 role: undergrad
+aliases:
+  - Yixuan He
+  - Quinn He
 links:
   email: qhe@smith.edu
 ---
