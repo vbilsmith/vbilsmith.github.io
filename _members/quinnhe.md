@@ -7,6 +7,7 @@ aliases:
   - Yixuan He
   - Quinn He
 links:
+  orcid: 0009-0007-5692-8608
   email: qhe@smith.edu
 ---
 
