@@ -2,6 +2,8 @@
 name: Elaine Chen '26
 image: images/elaine_chen.png
 description: Undergraduate Researcher
+aliases:
+  - Yilin Chen
 role: undergrad
 links:
   email: echen@smith.edu
