@@ -7,5 +7,6 @@ aliases:
   - Glenvelis Perez
 links:
   email: gperez42@smith.edu
+  orcid: 0009-0000-6092-1547
 ---
 
