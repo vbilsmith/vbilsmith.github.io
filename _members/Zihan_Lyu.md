@@ -3,6 +3,8 @@ name: Zihan Lyu '25
 image: images/ZihanLyu.jpg
 description: Undergraduate Researcher
 role: undergrad
+aliases:
+  - Zihan Lyu
 links:
   email: llyu69@smith.edu
   LinkedIn: https://www.linkedin.com/in/zihan-lyu/
