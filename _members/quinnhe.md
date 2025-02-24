@@ -3,7 +3,11 @@ name: Yixuan He '26J
 image: images/quinn_he.jpg
 description: Undergraduate Researcher
 role: undergrad
+aliases:
+  - Yixuan He
+  - Quinn He
 links:
+  orcid: 0009-0007-5692-8608
   email: qhe@smith.edu
 ---
 

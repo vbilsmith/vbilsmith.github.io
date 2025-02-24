@@ -1,5 +1,25 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.2460/ajvr.24.10.0315
+  title: Standardizing canine breed data in veterinary records is challenging, but
+    computer vision offers an alternative perspective on breed assignment
+  authors:
+  - Glenvelis Perez
+  - Yixuan He
+  - Zihan Lyu
+  - Yilin Chen
+  - Nicholas R. Howe
+  - Halie M. Rando
+  publisher: American Journal of Veterinary Research
+  date: '2025-02-21'
+  link: https://doi.org/g85s7s
+  type: journal paper
+  tags:
+  - genetics
+  - dogs
+  - machine learning
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1093/jhered/esae022
   title: 'Missing history of a modern domesticate: Historical demographics and genetic
     diversity in farm-bred red fox populations'
