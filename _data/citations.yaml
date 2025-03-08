@@ -503,7 +503,7 @@
   publisher: Genes
   date: '2019-05-28'
   link: https://doi.org/gk67ng
-  image: images/thumbnails/sequencing_red_fox.png
+  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
   tags:
   - foxes
   - genomes
@@ -524,7 +524,7 @@
   publisher: Genes
   date: '2021-01-14'
   link: https://doi.org/gtj95c
-  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
+  image: images/thumbnails/sequencing_red_fox.png
   tags:
   - foxes
   - genomes
