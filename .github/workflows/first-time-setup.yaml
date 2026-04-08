@@ -25,7 +25,7 @@ jobs:
           branch: "gh-pages"
 
       - name: Checkout Pages branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           ref: gh-pages
 
@@ -41,13 +41,13 @@ jobs:
         run: echo "Placeholder homepage" > index.html
 
       - name: Commit changes to Pages branch
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           branch: gh-pages
           commit_message: "Clear branch"
 
       - name: Checkout main branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: Remove files user doesn't need
         run: |
@@ -80,7 +80,7 @@ jobs:
           " > README.md
 
       - name: Personalize Jekyll config for user
-        uses: actions/github-script@v6
+        uses: actions/github-script@v8
         with:
           script: |
             const { readFileSync, writeFileSync } = require("fs");
@@ -97,7 +97,7 @@ jobs:
             writeFileSync(file, contents);
 
       - name: Personalize homepage for user
-        uses: actions/github-script@v6
+        uses: actions/github-script@v8
         with:
           script: |
             const { readFileSync, writeFileSync } = require("fs");
@@ -109,6 +109,6 @@ jobs:
             writeFileSync(file, contents);
 
       - name: Commit changed files
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Setup repo"
