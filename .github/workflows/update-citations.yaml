@@ -20,6 +20,7 @@ permissions:
 
 env:
   FORCE_COLOR: true
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
 
 jobs:
