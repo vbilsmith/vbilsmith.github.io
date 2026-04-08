@@ -7,6 +7,27 @@ Here in the VBIL within the Computer Science Department at Smith, we are interes
 
 {% include section.html %}
 
+## Latest News
+
+{% if site.posts.size > 0 %}
+{% for post in site.posts limit: 3 %}
+{% include post-excerpt.html lookup=post.slug %}
+{% endfor %}
+{% else %}
+Future lab announcements, milestones, publications, and event updates will appear here.
+{% endif %}
+
+{%
+  include button.html
+  link="news"
+  text="View all news"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% include section.html %}
+
 ## Highlights
 
 {% capture text %}

@@ -39,13 +39,17 @@ layout: default
 </p>
 
 {% capture search -%}
-  blog/?search={{ page.name }}
+  news/?search={{ page.name }}
 {%- endcapture %}
 
-<!--
+{% assign authored_posts = site.posts
+  | where_exp: "post", "post.author == page.slug"
+%}
+
+{% if authored_posts.size > 0 %}
 <p class="center">
   <a href="{{ search | relative_url }}">
-    See {{ page.name | default: page.title }}'s posts on the Blog page
+    See {{ page.name | default: page.title }}'s news posts on the News page
   </a>
 </p>
--->
+{% endif %}
