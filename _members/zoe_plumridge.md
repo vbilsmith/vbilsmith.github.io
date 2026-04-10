@@ -1,7 +1,7 @@
 ---
 name: Zo&#235; Plumridge '26
 image: images/zoeplumridge.jpeg 
-description: Undergraduate Researcher
+description: Honors Thesis Student
 role: undergrad
 links:
   github: zrplumridge
