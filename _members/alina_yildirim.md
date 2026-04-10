@@ -1,5 +1,6 @@
 ---
 name: Alina Yildirim '26
+image: images/alina_yildirim.jpg
 description: Honors Thesis Student & McKinley Fellow
 role: undergrad
 ---
