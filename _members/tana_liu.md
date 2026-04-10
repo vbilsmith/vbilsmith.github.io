@@ -3,6 +3,7 @@ name: Tana Liu '26
 image: images/tana_liu.jpg
 description: Undergraduate Researcher
 role: undergrad
+group: former-ra
 links:
   email: thliu@smith.edu
 ---

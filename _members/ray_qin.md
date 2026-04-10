@@ -1,6 +1,6 @@
 ---
 name: Ray Qin '25
-image: images/RayQin.jpg
+image: images/ray_qin.jpg
 description: Undergraduate Researcher
 role: undergrad
 group: alum

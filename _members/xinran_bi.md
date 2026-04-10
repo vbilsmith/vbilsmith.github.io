@@ -1,6 +1,7 @@
 ---
 name: Xinran Bi '24J
-image: images/XinranBi.jpg
+image: images/xinran_bi.jpg
+description: Undergraduate Researcher
 role: undergrad
 group: alum
 links:
