@@ -55,15 +55,18 @@ jobs:
 
       - name: Check if citations changed
         id: changed
-        uses: tj-actions/verify-changed-files@v20
-        with:
-          files: |
-            _data/citations.yaml
+        run: |
+          if git diff --quiet -- _data/citations.yaml; then
+            echo "files_changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "files_changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Commit updated citations to branch
         if: |
           steps.changed.outputs.files_changed == 'true' &&
-          inputs.open-pr != true
+          inputs.open-pr != true &&
+          github.ref_name != 'main'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update citations"
@@ -71,7 +74,10 @@ jobs:
       - name: Open pull request with updated citations
         if: |
           steps.changed.outputs.files_changed == 'true' &&
-          inputs.open-pr == true
+          (
+            inputs.open-pr == true ||
+            github.ref_name == 'main'
+          )
         uses: peter-evans/create-pull-request@v8
         with:
           branch: citation-update
