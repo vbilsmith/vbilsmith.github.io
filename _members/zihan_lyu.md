@@ -1,9 +1,11 @@
 ---
 name: Zihan Lyu '25
-image: images/ZihanLyu.jpg
+image: images/zihan_lyu.jpg
 description: Undergraduate Researcher
 role: undergrad
 group: alum
+redirect_from:
+  - /members/Zihan_Lyu.html
 aliases:
   - Zihan Lyu
 links:

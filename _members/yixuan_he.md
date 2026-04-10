@@ -1,9 +1,11 @@
 ---
 name: Yixuan He '26J
-image: images/quinn_he.jpg
+image: images/yixuan_he.jpg
 description: Undergraduate Researcher
 role: undergrad
 group: alum
+redirect_from:
+  - /members/quinnhe.html
 aliases:
   - Yixuan He
   - Quinn He
