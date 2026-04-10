@@ -26,7 +26,17 @@ Use this page for lab updates, student milestones, publications, talks, and othe
 ## {{ year.name }}
 
 {% for post in year.items %}
-{% include post-excerpt.html lookup=post.slug %}
+{% include post-excerpt.html
+  title=post.title
+  url=post.url
+  author=post.author
+  people=post.people
+  date=post.date
+  last_modified_at=post.last_modified_at
+  tags=post.tags
+  content=post.content
+  excerpt=post.excerpt
+%}
 {% endfor %}
 
 {% endfor %}
