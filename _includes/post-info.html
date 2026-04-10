@@ -32,6 +32,26 @@
   {% endif %}
 </div>
 
+{% assign tagged_people = include.people | default: empty %}
+{% assign tagged_people = tagged_people | join: "," | split: "," | array_filter %}
+
+{% if tagged_people.size > 0 %}
+  <p class="center">
+    Mentioned:
+    {% for person in tagged_people %}
+      {% assign member = site.members
+        | where_exp: "member", "member.slug == person"
+        | first
+      %}
+      {% if member %}
+        <a href="{{ member.url | relative_url }}">{{ member.name }}</a>{% unless forloop.last %}, {% endunless %}
+      {% else %}
+        {{ person }}{% unless forloop.last %}, {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </p>
+{% endif %}
+
 {% if include.tags %}
   {% include tags.html tags=include.tags link="news" %}
 {% endif %}

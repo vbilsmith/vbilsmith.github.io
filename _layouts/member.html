@@ -20,6 +20,20 @@ layout: default
 
 {{ content }}
 
+{% assign related_posts = site.posts
+  | where_exp: "post", "post.author == page.slug or post.people contains page.slug"
+%}
+
+{% if related_posts.size > 0 %}
+{% include section.html %}
+
+## News
+
+{% for post in related_posts %}
+{% include post-excerpt.html lookup=post.slug %}
+{% endfor %}
+{% endif %}
+
 {% assign aliases = page.aliases
   | default: page.name
   | default: page.title
