@@ -13,7 +13,7 @@ Below, learn about the current and past members of the VBIL. We are always open 
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: " %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: " %}
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: " %}
-{% include list.html data="members" component="portrait" filters="role: programmer, group: " %}
+{% include list.html data="members" component="portrait" filters="role: postbac, group: " %}
 {% include list.html data="members" component="portrait" filters="role: mascot, group: " %}
 
 {% include section.html %}
@@ -23,7 +23,7 @@ Below, learn about the current and past members of the VBIL. We are always open 
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: programmer, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: postbac, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: mascot, group: alum" style="small" %}
 
 {% include section.html %}

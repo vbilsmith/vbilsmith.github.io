@@ -1,8 +1,8 @@
 ---
 name: Yuzhang Fu '26J
 image: images/yuzhang_fu.jpeg
-description: Undergraduate Researcher
-role: Undergraduate Researcher
+description: Postbac
+role: postbac
 aliases:
   - Yuzhang Fu
 links:
