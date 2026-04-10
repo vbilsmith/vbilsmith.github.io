@@ -12,12 +12,19 @@
   tags:
     - resource
 
-- title: Data Structures
+- title: Introduction to Data Structures
   subtitle: CSC 210
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://smithcsc210.github.io
+  terms_offered:
+    - Fall 2023
+    - Spring 2024
+    - Fall 2024
+    - Spring 2025
+    - Fall 2025
+    - Spring 2026
+  next_offered: Taught by other instructors in Fall 2026
+  description: Course materials for CSC 210 are available at the course site. Halie's next offering is currently unknown.
   tags:
     - resource
