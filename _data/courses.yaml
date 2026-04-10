@@ -3,7 +3,12 @@
   group: featured
   image: images/photo.jpg
   link: https://smithcsc230.github.io
-  description: Taught in Fall 2023, Spring 2025, and Spring 2026. Next offered (tentative): Spring 2027. Course materials for CSC 230 are available at the course site.
+  terms_offered:
+    - Fall 2023
+    - Spring 2025
+    - Spring 2026
+  next_offered: Spring 2027
+  description: Course materials for CSC 230 are available at the course site. Next offering is tentative.
   tags:
     - resource
 
@@ -16,4 +21,3 @@
   repo: greenelab/lab-website-template
   tags:
     - resource
-
