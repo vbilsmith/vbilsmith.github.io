@@ -5,9 +5,17 @@
 %}
 
 <div class="post-excerpt">
-  {% assign url = post.url %}
+  {% assign url = post.url | default: post.link %}
   {% assign title = post.title %}
-  <a href="{{ url | relative_url }}">{{ title }}</a>
+  {% assign subtitle = post.subtitle %}
+  {% if url %}
+    <a href="{{ url | relative_url }}">{{ title }}</a>
+  {% else %}
+    <span>{{ title }}</span>
+  {% endif %}
+  {% if subtitle %}
+    <p><strong>{{ subtitle }}</strong></p>
+  {% endif %}
 
   {%
     include post-info.html
@@ -21,6 +29,7 @@
     | default: ""
     | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
     | default: post.excerpt
+    | default: post.description
     | default: ""
     | strip_html
   %}

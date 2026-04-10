@@ -2,9 +2,8 @@
   subtitle: CSC 230
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://smithcsc230.github.io
+  description: Taught in Fall 2023, Spring 2025, and Spring 2026. Next offered (tentative): Spring 2027. Course materials for CSC 230 are available at the course site.
   tags:
     - resource
 
@@ -17,5 +16,4 @@
   repo: greenelab/lab-website-template
   tags:
     - resource
-
 
