@@ -31,10 +31,17 @@
 
   {% assign terms_offered = post.terms_offered | default: empty %}
   {% if terms_offered.size > 0 %}
+    {% assign teaching_link = "/teaching" | relative_url %}
     <p><strong>Previously offered:</strong></p>
     <div class="tags">
       {% for term in terms_offered %}
-        <span class="tag">{{ term }}</span>
+        <a
+          href="{{ teaching_link }}?search=&quot;{{ term }}&quot;"
+          class="tag"
+          data-tooltip="Show courses taught in {{ term }}"
+        >
+          {{ term }}
+        </a>
       {% endfor %}
     </div>
   {% endif %}
