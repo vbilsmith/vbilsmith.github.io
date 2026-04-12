@@ -23,13 +23,22 @@
     <p><strong>Distribution:</strong> {{ include.distribution }}</p>
   {% endif %}
 
+  {% assign teaching_link = "/teaching" | relative_url %}
   {% if include.next_offered %}
-    <p><strong>Next offering:</strong> {{ include.next_offered }}</p>
+    <p><strong>Next offering:</strong></p>
+    <div class="tags">
+      <a
+        href="{{ teaching_link }}?search=&quot;{{ include.next_offered }}&quot;"
+        class="tag"
+        data-tooltip="Show courses taught in {{ include.next_offered }}"
+      >
+        {{ include.next_offered }}
+      </a>
+    </div>
   {% endif %}
 
   {% assign terms_offered = include.terms_offered | default: empty %}
   {% if terms_offered.size > 0 %}
-    {% assign teaching_link = "/teaching" | relative_url %}
     <p><strong>Previously offered:</strong></p>
     <div class="tags">
       {% for term in terms_offered %}
