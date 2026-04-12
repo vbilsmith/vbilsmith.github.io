@@ -4,58 +4,19 @@
 %}
 
 <div class="post-excerpt">
-  {% assign course_website = include.course_website | default: matched_post.course_website | default: empty %}
-  {% assign url = include.url | default: matched_post.url | default: include.link | default: matched_post.link | default: course_website %}
-  {% assign title = include.title | default: matched_post.title | default: include.lookup %}
-  {% assign subtitle = include.subtitle | default: matched_post.subtitle %}
-  {% capture display_title %}
-    {% if subtitle %}{{ subtitle }}: {% endif %}{{ title }}
-  {% endcapture %}
+  {% assign url = matched_post.url | default: include.url | default: include.link %}
+  {% assign title = matched_post.title | default: include.title | default: include.lookup %}
   {% if url %}
-    <a href="{{ url | relative_url }}" class="post-excerpt-title">{{ display_title | strip }}</a>
+    <a href="{{ url | relative_url }}" class="post-excerpt-title">{{ title }}</a>
   {% else %}
-    <span class="post-excerpt-title">{{ display_title | strip }}</span>
+    <span class="post-excerpt-title">{{ title }}</span>
   {% endif %}
 
-  {% if course_website %}
-    <p>
-      <strong>Course website:</strong>
-      <a href="{{ course_website }}">{{ course_website }}</a>
-    </p>
-  {% endif %}
-
-  {% assign distribution = include.distribution | default: matched_post.distribution %}
-  {% if distribution %}
-    <p><strong>Distribution:</strong> {{ distribution }}</p>
-  {% endif %}
-
-  {% assign next_offered = include.next_offered | default: matched_post.next_offered %}
-  {% if next_offered %}
-    <p><strong>Next offering:</strong> {{ next_offered }}</p>
-  {% endif %}
-
-  {% assign terms_offered = include.terms_offered | default: matched_post.terms_offered | default: empty %}
-  {% if terms_offered.size > 0 %}
-    {% assign teaching_link = "/teaching" | relative_url %}
-    <p><strong>Previously offered:</strong></p>
-    <div class="tags">
-      {% for term in terms_offered %}
-        <a
-          href="{{ teaching_link }}?search=&quot;{{ term }}&quot;"
-          class="tag"
-          data-tooltip="Show courses taught in {{ term }}"
-        >
-          {{ term }}
-        </a>
-      {% endfor %}
-    </div>
-  {% endif %}
-
-  {% assign info_author = include.author | default: matched_post.author %}
-  {% assign info_people = include.people | default: matched_post.people %}
-  {% assign info_published = include.date | default: matched_post.date %}
-  {% assign info_updated = include.last_modified_at | default: matched_post.last_modified_at %}
-  {% assign info_tags = include.tags | default: matched_post.tags %}
+  {% assign info_author = matched_post.author | default: include.author %}
+  {% assign info_people = matched_post.people | default: include.people %}
+  {% assign info_published = matched_post.date | default: include.date %}
+  {% assign info_updated = matched_post.last_modified_at | default: include.last_modified_at %}
+  {% assign info_tags = matched_post.tags | default: include.tags %}
 
   {%
     include post-info.html
@@ -66,7 +27,7 @@
     tags=info_tags
   %}
 
-  {% assign body = include.content | default: matched_post.content | default: "" %}
+  {% assign body = matched_post.content | default: include.content | default: "" %}
   {% if include.show_full_content %}
     <div class="post-excerpt-body" data-search="{{ body | strip_html | strip_newlines | regex_strip }}">
       {{ body | markdownify }}
@@ -74,10 +35,10 @@
   {% else %}
     {% assign excerpt = body
       | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
-      | default: include.excerpt
       | default: matched_post.excerpt
-      | default: include.description
       | default: matched_post.description
+      | default: include.excerpt
+      | default: include.description
       | default: ""
       | strip_html
     %}
