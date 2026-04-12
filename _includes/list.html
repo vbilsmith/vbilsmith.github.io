@@ -21,42 +21,40 @@
 
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
-
-    {%
-      include {{ include.component | append: ".html" }}
-      author=d.author
-      authors=d.authors
-      buttons=d.buttons
-      caption=d.caption
-      course_website=d.course_website
-      content=d.content
-      date=d.date
-      description=d.description
-      distribution=d.distribution
-      excerpt=d.excerpt
-      height=d.height
-      icon=d.icon
-      id=d.id
-      image=d.image
-      last_modified_at=d.last_modified_at
-      link=d.link
-      lookup=d.lookup
-      name=d.name
-      publisher=d.publisher
-      repo=d.repo
-      role=d.role
-      slug=d.slug
-      style=style
-      subtitle=d.subtitle
-      tags=d.tags
-      terms_offered=d.terms_offered
-      text=d.text
-      next_offered=d.next_offered
-      title=d.title
-      tooltip=d.tooltip
-      type=d.type
-      url=d.url
-      width=d.width
-    %}
+{% include {{ include.component | append: ".html" }}
+  author=d.author
+  authors=d.authors
+  buttons=d.buttons
+  caption=d.caption
+  course_website=d.course_website
+  content=d.content
+  date=d.date
+  description=d.description
+  distribution=d.distribution
+  excerpt=d.excerpt
+  height=d.height
+  icon=d.icon
+  id=d.id
+  image=d.image
+  last_modified_at=d.last_modified_at
+  link=d.link
+  lookup=d.lookup
+  name=d.name
+  publisher=d.publisher
+  repo=d.repo
+  role=d.role
+  slug=d.slug
+  style=style
+  subtitle=d.subtitle
+  tags=d.tags
+  terms_offered=d.terms_offered
+  text=d.text
+  next_offered=d.next_offered
+  title=d.title
+  tooltip=d.tooltip
+  type=d.type
+  url=d.url
+  width=d.width
+%}
   {% endfor %}
 {% endfor %}
