@@ -36,6 +36,7 @@ Use this page for lab updates, student milestones, publications, talks, and othe
   tags=post.tags
   content=post.content
   excerpt=post.excerpt
+  show_full_content=true
 %}
 {% endfor %}
 

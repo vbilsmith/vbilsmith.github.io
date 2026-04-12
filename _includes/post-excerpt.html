@@ -5,8 +5,8 @@
 %}
 
 <div class="post-excerpt">
-  {% assign url = post.url %}
-  {% assign title = post.title %}
+  {% assign url = include.url | default: post.url %}
+  {% assign title = include.title | default: post.title %}
   <a href="{{ url | relative_url }}">{{ title }}</a>
 
   {%
@@ -18,14 +18,19 @@
     tags=post.tags
   %}
 
-  {% assign excerpt = post.content
-    | default: ""
-    | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
-    | default: post.excerpt
-    | default: ""
-    | strip_html
-  %}
-  {% assign search = post.content
+  {% assign body = include.content | default: post.content | default: "" %}
+  {% if include.show_full_content %}
+    {% assign excerpt = body | markdownify | strip_html %}
+  {% else %}
+    {% assign excerpt = body
+      | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+      | default: include.excerpt
+      | default: post.excerpt
+      | default: ""
+      | strip_html
+    %}
+  {% endif %}
+  {% assign search = body
     | strip_html 
     | strip_newlines
     | regex_strip
