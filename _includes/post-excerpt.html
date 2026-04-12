@@ -5,7 +5,8 @@
 %}
 
 <div class="post-excerpt">
-  {% assign url = post.url | default: post.link %}
+  {% assign course_website = post.course_website | default: empty %}
+  {% assign url = post.url | default: post.link | default: course_website %}
   {% assign title = post.title %}
   {% assign subtitle = post.subtitle %}
   {% if url %}
@@ -17,15 +18,24 @@
     <p><strong>{{ subtitle }}</strong></p>
   {% endif %}
 
+  {% if course_website %}
+    <p>
+      <strong>Course website:</strong>
+      <a href="{{ course_website }}">{{ course_website }}</a>
+    </p>
+  {% endif %}
+
+  {% if post.next_offered %}
+    <p><strong>Next offering:</strong> {{ post.next_offered }}</p>
+  {% endif %}
+
   {% assign terms_offered = post.terms_offered | default: empty %}
   {% if terms_offered.size > 0 %}
+    <p><strong>Previously offered:</strong></p>
     <div class="tags">
       {% for term in terms_offered %}
         <span class="tag">{{ term }}</span>
       {% endfor %}
-      {% if post.next_offered %}
-        <span class="tag">Next: {{ post.next_offered }}</span>
-      {% endif %}
     </div>
   {% endif %}
 
