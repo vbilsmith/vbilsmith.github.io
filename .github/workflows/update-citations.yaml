@@ -33,13 +33,13 @@ jobs:
         uses: crazy-max/ghaction-dump-context@v1
 
       - name: Checkout branch contents
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.head_ref }}
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
@@ -55,24 +55,30 @@ jobs:
 
       - name: Check if citations changed
         id: changed
-        uses: tj-actions/verify-changed-files@v17
-        with:
-          files: |
-            _data/citations.yaml
+        run: |
+          if git diff --quiet -- _data/citations.yaml; then
+            echo "files_changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "files_changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Commit updated citations to branch
         if: |
           steps.changed.outputs.files_changed == 'true' &&
-          inputs.open-pr != true
-        uses: stefanzweifel/git-auto-commit-action@v4
+          inputs.open-pr != true &&
+          github.ref_name != 'main'
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update citations"
 
       - name: Open pull request with updated citations
         if: |
           steps.changed.outputs.files_changed == 'true' &&
-          inputs.open-pr == true
-        uses: peter-evans/create-pull-request@v4
+          (
+            inputs.open-pr == true ||
+            github.ref_name == 'main'
+          )
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: citation-update
           title: Periodic citation update

@@ -1,616 +1,710 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1111/jvim.70133
+  title: "The Vertebrate Breed Ontology: Toward Effective Breed Data Standardization"
+  authors:
+    - Kathleen R. Mullen
+    - Imke Tammen
+    - Nicolas A. Matentzoglu
+    - Marius Mather
+    - James P. Balhoff
+    - Elizabeth Esdaile
+    - Gregoire Leroy
+    - Carissa A. Park
+    - Halie M. Rando
+    - Nadia T. Saklou
+    - Tracy L. Webb
+    - Nicole A. Vasilevsky
+    - Christopher J. Mungall
+    - Melissa A. Haendel
+    - Frank W. Nicholas
+    - Sabrina Toro
+  publisher: Journal of Veterinary Internal Medicine
+  date: "2025-07-01"
+  link: https://doi.org/hbwvfw
+  type: journal paper
+  image: images/m_jvim70133-fig-0003.jpeg
+  tags:
+    - ontology
+    - animals
+    - domestication
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.2460/ajvr.24.10.0315
+  title:
+    Standardizing canine breed data in veterinary records is challenging, but
+    computer vision offers an alternative perspective on breed assignment
+  authors:
+    - Glenvelis Perez
+    - Yixuan He
+    - Zihan Lyu
+    - Yilin Chen
+    - Nicholas R. Howe
+    - Halie M. Rando
+  publisher: American Journal of Veterinary Research
+  date: "2025-03-01"
+  link: https://doi.org/g85s7s
+  type: journal paper
+  image: images/full-ajvr.24.10.0315.figure1.jpg
+  tags:
+    - genetics
+    - dogs
+    - machine learning
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/jhered/esae022
+  title:
+    "Missing history of a modern domesticate: Historical demographics and genetic
+    diversity in farm-bred red fox populations"
+  authors:
+    - Halie M Rando
+    - Emmarie P Alexander
+    - Sophie Preckler-Quisquater
+    - Cate B Quinn
+    - Jeremy T Stutchman
+    - Jennifer L Johnson
+    - Estelle R Bastounes
+    - Beata Horecka
+    - Kristina L Black
+    - Michael P Robson
+    - Darya V Shepeleva
+    - Yury E Herbeck
+    - Anastasiya V Kharlamova
+    - Lyudmila N Trut
+    - Jonathan N Pauli
+    - Benjamin N Sacks
+    - Anna V Kukekova
+  publisher: Journal of Heredity
+  date: "2024-04-16"
+  link: https://doi.org/gtq55b
+  type: journal paper
+  image: images/jhered_2024_red_fox_map.jpeg
+  tags:
+    - domestication
+    - foxes
+    - wildlife
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.2460/javma.23.07.0372
-  title: Many direct-to-consumer canine genetic tests can identify the breed of purebred
+  title:
+    Many direct-to-consumer canine genetic tests can identify the breed of purebred
     dogs
   authors:
-  - Halie M. Rando
-  - Kiley Graim
-  - Greg Hampikian
-  - Casey S. Greene
+    - Halie M. Rando
+    - Kiley Graim
+    - Greg Hampikian
+    - Casey S. Greene
   publisher: Journal of the American Veterinary Medical Association
-  date: '2024-02-27'
+  date: "2024-05-01"
   link: https://doi.org/gtn72p
   type: journal paper
   image: https://user-images.githubusercontent.com/8975841/250271905-4eed44ba-528a-4a61-a4ec-fa90d51e61f9.jpg
   tags:
-  - reproducibility
-  - genetics
-  - dogs
+    - reproducibility
+    - genetics
+    - dogs
   plugin: sources.py
   file: sources.yaml
 - id: url:https://icbo-conference.github.io/icbo2022/papers/ICBO-2022_paper_1882.pdf
   title: Classifying animal breeds with the vertebrate breed ontology (VBO)
   authors:
-  - Sabrina Toro
-  - Nicolas Matentzoglu
-  - Kathleen R. Mullen
-  - Nicole Vasilevsky
-  - Halie M. Rando
-  - Melissa Haendel
-  - Christopher J. Mungall
-  - Zhi-Liang Hu
-  - Gregoire Leroy
-  - Imke Tammen
-  - Frank W. Nicholas
+    - Sabrina Toro
+    - Nicolas Matentzoglu
+    - Kathleen R. Mullen
+    - Nicole Vasilevsky
+    - Halie M. Rando
+    - Melissa Haendel
+    - Christopher J. Mungall
+    - Zhi-Liang Hu
+    - Gregoire Leroy
+    - Imke Tammen
+    - Frank W. Nicholas
   publisher: Proceedings of the International Conference on Biomedical Ontology
-  date: '2022-09-25'
+  date: "2022-09-25"
   link: https://icbo-conference.github.io/icbo2022/papers/ICBO-2022_paper_1882.pdf
   type: conference paper
   image: https://user-images.githubusercontent.com/8975841/260512613-910f7bcd-2648-48db-8874-d37bca58c8f1.png
   tags:
-  - ontology
-  - animals
-  - domestication
+    - ontology
+    - animals
+    - domestication
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.ebiom.2021.103722
-  title: 'Characterizing Long COVID: Deep Phenotype of a Complex Condition'
+  title: "Characterizing Long COVID: Deep Phenotype of a Complex Condition"
   authors:
-  - Rachel R Deer
-  - Madeline A Rock
-  - Nicole Vasilevsky
-  - Leigh Carmody
-  - Halie Rando
-  - Alfred J Anzalone
-  - Marc D Basson
-  - Tellen D Bennett
-  - Timothy Bergquist
-  - Eilis A Boudreau
-  - Carolyn T Bramante
-  - James Brian Byrd
-  - Tiffany J Callahan
-  - Lauren E Chan
-  - Haitao Chu
-  - Christopher G Chute
-  - Ben D Coleman
-  - Hannah E Davis
-  - Joel Gagnier
-  - Casey S Greene
-  - William B Hillegass
-  - Ramakanth Kavuluru
-  - Wesley D Kimble
-  - Farrukh M Koraishy
-  - "Sebastian K\xF6hler"
-  - Chen Liang
-  - Feifan Liu
-  - Hongfang Liu
-  - Vithal Madhira
-  - Charisse R Madlock-Brown
-  - Nicolas Matentzoglu
-  - Diego R Mazzotti
-  - Julie A McMurry
-  - Douglas S McNair
-  - Richard A Moffitt
-  - Teshamae S Monteith
-  - Ann M Parker
-  - Mallory A Perry
-  - Emily Pfaff
-  - Justin T Reese
-  - Joel Saltz
-  - Robert A Schuff
-  - Anthony E Solomonides
-  - Julian Solway
-  - Heidi Spratt
-  - Gary S Stein
-  - Anupam A Sule
-  - Umit Topaloglu
-  - George D. Vavougios
-  - Liwei Wang
-  - Melissa A Haendel
-  - Peter N Robinson
+    - Rachel R Deer
+    - Madeline A Rock
+    - Nicole Vasilevsky
+    - Leigh Carmody
+    - Halie Rando
+    - Alfred J Anzalone
+    - Marc D Basson
+    - Tellen D Bennett
+    - Timothy Bergquist
+    - Eilis A Boudreau
+    - Carolyn T Bramante
+    - James Brian Byrd
+    - Tiffany J Callahan
+    - Lauren E Chan
+    - Haitao Chu
+    - Christopher G Chute
+    - Ben D Coleman
+    - Hannah E Davis
+    - Joel Gagnier
+    - Casey S Greene
+    - William B Hillegass
+    - Ramakanth Kavuluru
+    - Wesley D Kimble
+    - Farrukh M Koraishy
+    - "Sebastian K\xF6hler"
+    - Chen Liang
+    - Feifan Liu
+    - Hongfang Liu
+    - Vithal Madhira
+    - Charisse R Madlock-Brown
+    - Nicolas Matentzoglu
+    - Diego R Mazzotti
+    - Julie A McMurry
+    - Douglas S McNair
+    - Richard A Moffitt
+    - Teshamae S Monteith
+    - Ann M Parker
+    - Mallory A Perry
+    - Emily Pfaff
+    - Justin T Reese
+    - Joel Saltz
+    - Robert A Schuff
+    - Anthony E Solomonides
+    - Julian Solway
+    - Heidi Spratt
+    - Gary S Stein
+    - Anupam A Sule
+    - Umit Topaloglu
+    - George D. Vavougios
+    - Liwei Wang
+    - Melissa A Haendel
+    - Peter N Robinson
   publisher: eBioMedicine
-  date: '2021-12-01'
+  date: "2021-12-01"
   link: https://doi.org/gnmkm7
   type: journal paper
   image: https://www.medrxiv.org/content/medrxiv/early/2021/06/29/2021.06.23.21259416/F1.large.jpg?width=800&height=600&carousel=1
   tags:
-  - ontology
-  - disease
-  - humans
+    - ontology
+    - disease
+    - humans
   plugin: sources.py
   file: sources.yaml
 - id: url:http://ceur-ws.org/Vol-2976/paper-2.pdf
   title: An Open-Publishing Response to the COVID-19 Infodemic
   authors:
-  - Halie M. Rando
-  - Simina M. Boca
-  - Lucy D'Agostino McGowan
-  - Daniel S. Himmelstein
-  - Michael P. Robson
-  - Vincent Rubinetti
-  - Ryan Velazquez
-  - Casey S. Greene
-  - Anthony Gitter
+    - Halie M. Rando
+    - Simina M. Boca
+    - Lucy D'Agostino McGowan
+    - Daniel S. Himmelstein
+    - Michael P. Robson
+    - Vincent Rubinetti
+    - Ryan Velazquez
+    - Casey S. Greene
+    - Anthony Gitter
   publisher: Digital Infrastructures for Scholarly Content Objects 2021
-  date: '2021-09-30'
+  date: "2021-09-30"
   link: http://ceur-ws.org/Vol-2976/paper-2.pdf
   type: conference paper
   image: https://user-images.githubusercontent.com/8975841/137757668-cf24b018-5539-4969-965f-305fee56b2d3.png
   tags:
-  - manubot
-  - reproducibility
-  - documents
+    - manubot
+    - reproducibility
+    - documents
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1128/mSystems.00122-21
-  title: Dietary Supplements and Nutraceuticals under Investigation for COVID-19 Prevention
+  title:
+    Dietary Supplements and Nutraceuticals under Investigation for COVID-19 Prevention
     and Treatment
   authors:
-  - Ronan Lordan
-  - Halie M. Rando
-  - Casey S. Greene
+    - Ronan Lordan
+    - Halie M. Rando
+    - Casey S. Greene
   publisher: mSystems
-  date: '2021-06-29'
+  date: "2021-06-29"
   link: https://doi.org/gj9qvs
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-  - manubot
-  - COVID-19
+    - manubot
+    - COVID-19
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1128/msystems.00095-21
-  title: Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through Analysis
+  title:
+    Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through Analysis
     of Viral Genomics and Structure
   authors:
-  - Halie M. Rando
-  - Adam L. MacLean
-  - Alexandra J. Lee
-  - Ronan Lordan
-  - Sandipan Ray
-  - Vikas Bansal
-  - Ashwin N. Skelly
-  - Elizabeth Sell
-  - John J. Dziak
-  - Lamonica Shinholster
-  - "Lucy D\u2019Agostino McGowan"
-  - Marouen Ben Guebila
-  - Nils Wellhausen
-  - Sergey Knyazev
-  - Simina M. Boca
-  - Stephen Capone
-  - Yanjun Qi
-  - YoSon Park
-  - David Mai
-  - Yuchen Sun
-  - Joel D. Boerckel
-  - Christian Brueffer
-  - James Brian Byrd
-  - Jeremy P. Kamil
-  - Jinhui Wang
-  - Ryan Velazquez
-  - Gregory L. Szeto
-  - John P. Barton
-  - Rishi Raj Goel
-  - Serghei Mangul
-  - Tiago Lubiana
-  - Anthony Gitter
-  - Casey S. Greene
+    - Halie M. Rando
+    - Adam L. MacLean
+    - Alexandra J. Lee
+    - Ronan Lordan
+    - Sandipan Ray
+    - Vikas Bansal
+    - Ashwin N. Skelly
+    - Elizabeth Sell
+    - John J. Dziak
+    - Lamonica Shinholster
+    - "Lucy D\u2019Agostino McGowan"
+    - Marouen Ben Guebila
+    - Nils Wellhausen
+    - Sergey Knyazev
+    - Simina M. Boca
+    - Stephen Capone
+    - Yanjun Qi
+    - YoSon Park
+    - David Mai
+    - Yuchen Sun
+    - Joel D. Boerckel
+    - Christian Brueffer
+    - James Brian Byrd
+    - Jeremy P. Kamil
+    - Jinhui Wang
+    - Ryan Velazquez
+    - Gregory L. Szeto
+    - John P. Barton
+    - Rishi Raj Goel
+    - Serghei Mangul
+    - Tiago Lubiana
+    - Anthony Gitter
+    - Casey S. Greene
   publisher: mSystems
-  date: '2021-10-26'
+  date: "2021-10-26"
   link: https://doi.org/gm8k9b
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-  - manubot
-  - COVID-19
+    - manubot
+    - COVID-19
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1128/mSystems.00233-21
   title: Identification and Development of Therapeutics for COVID-19
   authors:
-  - Halie M. Rando
-  - Nils Wellhausen
-  - Soumita Ghosh
-  - Alexandra J. Lee
-  - Anna Ada Dattoli
-  - Fengling Hu
-  - James Brian Byrd
-  - Diane N. Rafizadeh
-  - Ronan Lordan
-  - Yanjun Qi
-  - Yuchen Sun
-  - Christian Brueffer
-  - Jeffrey M. Field
-  - Marouen Ben Guebila
-  - Nafisa M. Jadavji
-  - Ashwin N. Skelly
-  - Bharath Ramsundar
-  - Jinhui Wang
-  - Rishi Raj Goel
-  - YoSon Park
-  - Simina M. Boca
-  - Anthony Gitter
-  - Casey S. Greene
+    - Halie M. Rando
+    - Nils Wellhausen
+    - Soumita Ghosh
+    - Alexandra J. Lee
+    - Anna Ada Dattoli
+    - Fengling Hu
+    - James Brian Byrd
+    - Diane N. Rafizadeh
+    - Ronan Lordan
+    - Yanjun Qi
+    - Yuchen Sun
+    - Christian Brueffer
+    - Jeffrey M. Field
+    - Marouen Ben Guebila
+    - Nafisa M. Jadavji
+    - Ashwin N. Skelly
+    - Bharath Ramsundar
+    - Jinhui Wang
+    - Rishi Raj Goel
+    - YoSon Park
+    - Simina M. Boca
+    - Anthony Gitter
+    - Casey S. Greene
   publisher: mSystems
-  date: '2021-12-21'
+  date: "2021-12-21"
   link: https://doi.org/gnbhqq
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-  - manubot
-  - COVID-19
+    - manubot
+    - COVID-19
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/ARXIV.2204.12598
   title: Molecular and Serologic Diagnostic Technologies for SARS-CoV-2
   authors:
-  - Halie M. Rando
-  - Christian Brueffer
-  - Ronan Lordan
-  - Anna Ada Dattoli
-  - David Manheim
-  - Jesse G. Meyer
-  - Ariel I. Mundo
-  - Dimitri Perrin
-  - David Mai
-  - Nils Wellhausen
-  - COVID-19 Review Consortium
-  - Anthony Gitter
-  - Casey S. Greene
+    - Halie M. Rando
+    - Christian Brueffer
+    - Ronan Lordan
+    - Anna Ada Dattoli
+    - David Manheim
+    - Jesse G. Meyer
+    - Ariel I. Mundo
+    - Dimitri Perrin
+    - David Mai
+    - Nils Wellhausen
+    - COVID-19 Review Consortium
+    - Anthony Gitter
+    - Casey S. Greene
   publisher: arXiv
-  date: '2022-01-01'
+  date: "2022-01-01"
   link: https://doi.org/gp4ftc
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-  - manubot
-  - COVID-19
+    - manubot
+    - COVID-19
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1128/msystems.00927-22
   title: Application of Traditional Vaccine Development Strategies to SARS-CoV-2
   authors:
-  - Halie M. Rando
-  - Ronan Lordan
-  - Alexandra J. Lee
-  - Amruta Naik
-  - Nils Wellhausen
-  - Elizabeth Sell
-  - Likhitha Kolla
-  - Anthony Gitter
-  - Casey S. Greene
-  - Vikas Bansal
-  - John P. Barton
-  - Simina M. Boca
-  - Joel D. Boerckel
-  - Christian Brueffer
-  - James Brian Byrd
-  - Stephen Capone
-  - Shikta Das
-  - Anna Ada Dattoli
-  - John J. Dziak
-  - Jeffrey M. Field
-  - Soumita Ghosh
-  - Anthony Gitter
-  - Rishi Raj Goel
-  - Casey S. Greene
-  - Marouen Ben Guebila
-  - Daniel S. Himmelstein
-  - Fengling Hu
-  - Nafisa M. Jadavji
-  - Jeremy P. Kamil
-  - Sergey Knyazev
-  - Likhitha Kolla
-  - Alexandra J. Lee
-  - Ronan Lordan
-  - Tiago Lubiana
-  - Temitayo Lukan
-  - Adam L. MacLean
-  - David Mai
-  - Serghei Mangul
-  - David Manheim
-  - "Lucy D\u2019Agostino McGowan"
-  - Jesse G. Meyer
-  - Ariel I. Mundo
-  - Amruta Naik
-  - YoSon Park
-  - Dimitri Perrin
-  - Yanjun Qi
-  - Diane N. Rafizadeh
-  - Bharath Ramsundar
-  - Halie M. Rando
-  - Sandipan Ray
-  - Michael P. Robson
-  - Vincent Rubinetti
-  - Elizabeth Sell
-  - Lamonica Shinholster
-  - Ashwin N. Skelly
-  - Yuchen Sun
-  - Yusha Sun
-  - Gregory L. Szeto
-  - Ryan Velazquez
-  - Jinhui Wang
-  - Nils Wellhausen
+    - Halie M. Rando
+    - Ronan Lordan
+    - Alexandra J. Lee
+    - Amruta Naik
+    - Nils Wellhausen
+    - Elizabeth Sell
+    - Likhitha Kolla
+    - Anthony Gitter
+    - Casey S. Greene
+    - Vikas Bansal
+    - John P. Barton
+    - Simina M. Boca
+    - Joel D. Boerckel
+    - Christian Brueffer
+    - James Brian Byrd
+    - Stephen Capone
+    - Shikta Das
+    - Anna Ada Dattoli
+    - John J. Dziak
+    - Jeffrey M. Field
+    - Soumita Ghosh
+    - Anthony Gitter
+    - Rishi Raj Goel
+    - Casey S. Greene
+    - Marouen Ben Guebila
+    - Daniel S. Himmelstein
+    - Fengling Hu
+    - Nafisa M. Jadavji
+    - Jeremy P. Kamil
+    - Sergey Knyazev
+    - Likhitha Kolla
+    - Alexandra J. Lee
+    - Ronan Lordan
+    - Tiago Lubiana
+    - Temitayo Lukan
+    - Adam L. MacLean
+    - David Mai
+    - Serghei Mangul
+    - David Manheim
+    - "Lucy D\u2019Agostino McGowan"
+    - Jesse G. Meyer
+    - Ariel I. Mundo
+    - Amruta Naik
+    - YoSon Park
+    - Dimitri Perrin
+    - Yanjun Qi
+    - Diane N. Rafizadeh
+    - Bharath Ramsundar
+    - Halie M. Rando
+    - Sandipan Ray
+    - Michael P. Robson
+    - Vincent Rubinetti
+    - Elizabeth Sell
+    - Lamonica Shinholster
+    - Ashwin N. Skelly
+    - Yuchen Sun
+    - Yusha Sun
+    - Gregory L. Szeto
+    - Ryan Velazquez
+    - Jinhui Wang
+    - Nils Wellhausen
   publisher: mSystems
-  date: '2023-04-27'
+  date: "2023-04-27"
   link: https://doi.org/grv3d9
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-  - manubot
-  - COVID-19
+    - manubot
+    - COVID-19
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1128/msystems.00928-22
   title: The Coming of Age of Nucleic Acid Vaccines during COVID-19
   authors:
-  - Halie M. Rando
-  - Ronan Lordan
-  - Likhitha Kolla
-  - Elizabeth Sell
-  - Alexandra J. Lee
-  - Nils Wellhausen
-  - Amruta Naik
-  - Jeremy P. Kamil
-  - Anthony Gitter
-  - Casey S. Greene
-  - John P. Barton
-  - Simina M. Boca
-  - Joel D. Boerckel
-  - Christian Brueffer
-  - James Brian Byrd
-  - Stephen Capone
-  - Shikta Capone
-  - Anna Ada Dattoli
-  - John J. Dziak
-  - Jeffrey M. Field
-  - Soumita Ghosh
-  - Anthony Gitter
-  - Rishi Raj Goel
-  - Casey S. Greene
-  - Marouen Ben Guebila
-  - Daniel S. Himmelstein
-  - Fengling Hu
-  - Nafisa M. Jadavji
-  - Jeremy P. Kamil
-  - Sergey Knyazev
-  - Likhitha Kolla
-  - Alexandra J. Lee
-  - Ronan Lordan
-  - Tiago Lubiana
-  - Temitayo Lukan
-  - Adam L. MacLean
-  - David Mai
-  - Serghei Mangul
-  - David Manheim
-  - "Lucy D\u2019Agostino McGowan"
-  - Jesse G. Meyer
-  - Ariel I. Mundo
-  - Amruta Naik
-  - YoSon Park
-  - Dimitri Perrin
-  - Yanjun Qi
-  - Diane N. Rafizadeh
-  - Bharath Ramsundar
-  - Halie M. Rando
-  - Sandipan Ray
-  - Michael P. Robson
-  - Vincent Rubinetti
-  - Elizabeth Sell
-  - Lamonica Shinholster
-  - Ashwin N. Skelly
-  - Yuchen Sun
-  - Yusha Sun
-  - Gregory L. Szeto
-  - Ryan Velazquez
-  - Jinhui Wang
-  - Nils Wellhausen
+    - Halie M. Rando
+    - Ronan Lordan
+    - Likhitha Kolla
+    - Elizabeth Sell
+    - Alexandra J. Lee
+    - Nils Wellhausen
+    - Amruta Naik
+    - Jeremy P. Kamil
+    - Anthony Gitter
+    - Casey S. Greene
+    - John P. Barton
+    - Simina M. Boca
+    - Joel D. Boerckel
+    - Christian Brueffer
+    - James Brian Byrd
+    - Stephen Capone
+    - Shikta Capone
+    - Anna Ada Dattoli
+    - John J. Dziak
+    - Jeffrey M. Field
+    - Soumita Ghosh
+    - Anthony Gitter
+    - Rishi Raj Goel
+    - Casey S. Greene
+    - Marouen Ben Guebila
+    - Daniel S. Himmelstein
+    - Fengling Hu
+    - Nafisa M. Jadavji
+    - Jeremy P. Kamil
+    - Sergey Knyazev
+    - Likhitha Kolla
+    - Alexandra J. Lee
+    - Ronan Lordan
+    - Tiago Lubiana
+    - Temitayo Lukan
+    - Adam L. MacLean
+    - David Mai
+    - Serghei Mangul
+    - David Manheim
+    - "Lucy D\u2019Agostino McGowan"
+    - Jesse G. Meyer
+    - Ariel I. Mundo
+    - Amruta Naik
+    - YoSon Park
+    - Dimitri Perrin
+    - Yanjun Qi
+    - Diane N. Rafizadeh
+    - Bharath Ramsundar
+    - Halie M. Rando
+    - Sandipan Ray
+    - Michael P. Robson
+    - Vincent Rubinetti
+    - Elizabeth Sell
+    - Lamonica Shinholster
+    - Ashwin N. Skelly
+    - Yuchen Sun
+    - Yusha Sun
+    - Gregory L. Szeto
+    - Ryan Velazquez
+    - Jinhui Wang
+    - Nils Wellhausen
   publisher: mSystems
-  date: '2023-04-27'
+  date: "2023-04-27"
   link: https://doi.org/grv5vq
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-  - manubot
-  - COVID-19
+    - manubot
+    - COVID-19
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2021.03.20.21253896
-  title: 'Challenges in defining Long COVID: Striking differences across literature,
-    Electronic Health Records, and patient-reported information'
+  title:
+    "Challenges in defining Long COVID: Striking differences across literature,
+    Electronic Health Records, and patient-reported information"
   authors:
-  - Halie M. Rando
-  - Tellen D. Bennett
-  - James Brian Byrd
-  - Carolyn Bramante
-  - Tiffany J. Callahan
-  - Christopher G. Chute
-  - Hannah E. Davis
-  - Rachel Deer
-  - Joel Gagnier
-  - Farrukh M Koraishy
-  - Feifan Liu
-  - Julie A. McMurry
-  - Richard A. Moffitt
-  - Emily R. Pfaff
-  - Justin T. Reese
-  - Rose Relevo
-  - Peter N. Robinson
-  - Joel H. Saltz
-  - Anthony Solomonides
-  - Anupam Sule
-  - Umit Topaloglu
-  - Melissa A. Haendel
-  publisher: Cold Spring Harbor Laboratory
-  date: '2021-03-26'
+    - Halie M. Rando
+    - Tellen D. Bennett
+    - James Brian Byrd
+    - Carolyn Bramante
+    - Tiffany J. Callahan
+    - Christopher G. Chute
+    - Hannah E. Davis
+    - Rachel Deer
+    - Joel Gagnier
+    - Farrukh M Koraishy
+    - Feifan Liu
+    - Julie A. McMurry
+    - Richard A. Moffitt
+    - Emily R. Pfaff
+    - Justin T. Reese
+    - Rose Relevo
+    - Peter N. Robinson
+    - Joel H. Saltz
+    - Anthony Solomonides
+    - Anupam Sule
+    - Umit Topaloglu
+    - Melissa A. Haendel
+  publisher: openRxiv
+  date: "2021-03-26"
   link: https://doi.org/gjk3ng
   image: https://user-images.githubusercontent.com/8975841/112666874-013a3400-8e33-11eb-9be9-5c74f3e397ea.png
   type: preprint
   tags:
-  - ontology
-  - disease
-  - humans
+    - ontology
+    - disease
+    - humans
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3390/genes10060409
   title: The Red Fox Y-Chromosome in Comparative Context
   authors:
-  - Halie M. Rando
-  - William H. Wadlington
-  - Jennifer L. Johnson
-  - Jeremy T. Stutchman
-  - Lyudmila N. Trut
-  - "Marta Farr\xE9"
-  - Anna V. Kukekova
+    - Halie M. Rando
+    - William H. Wadlington
+    - Jennifer L. Johnson
+    - Jeremy T. Stutchman
+    - Lyudmila N. Trut
+    - "Marta Farr\xE9"
+    - Anna V. Kukekova
   publisher: Genes
-  date: '2019-05-28'
+  date: "2019-05-28"
   link: https://doi.org/gk67ng
-  image: images/thumbnails/sequencing_red_fox.png
+  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
   tags:
-  - foxes
-  - genomes
-  - machine learning
+    - foxes
+    - genomes
+    - machine learning
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3390/genes12010097
-  title: Sequencing Red Fox Y Chromosome Fragments to Develop Phylogenetically Informative
+  title:
+    Sequencing Red Fox Y Chromosome Fragments to Develop Phylogenetically Informative
     SNP Markers and Glimpse Male-Specific Trans-Pacific Phylogeography
   authors:
-  - Benjamin N. Sacks
-  - Zachary T. Lounsberry
-  - Halie M. Rando
-  - Kristopher Kluepfel
-  - Steven R. Fain
-  - Sarah K. Brown
-  - Anna V. Kukekova
+    - Benjamin N. Sacks
+    - Zachary T. Lounsberry
+    - Halie M. Rando
+    - Kristopher Kluepfel
+    - Steven R. Fain
+    - Sarah K. Brown
+    - Anna V. Kukekova
   publisher: Genes
-  date: '2021-01-14'
+  date: "2021-01-14"
   link: https://doi.org/gtj95c
-  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
+  image: images/thumbnails/sequencing_red_fox.png
   tags:
-  - foxes
-  - genomes
-  - wildlife
+    - foxes
+    - genomes
+    - wildlife
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1111/age.12755
-  title: "Four structural variants associated with human\u2010directed sociability\
+  title:
+    "Four structural variants associated with human\u2010directed sociability\
     \ in dogs are not found in tame red foxes (<i>Vulpes vulpes</i>)"
   authors:
-  - Estelle R. Bastounes
-  - Halie M. Rando
-  - Jennifer L. Johnson
-  - Lyudmila N. Trut
-  - Benjamin N. Sacks
-  - Carlos A. Driscoll
-  - Bridgett vonHoldt
-  - Anna V. Kukekova
+    - Estelle R. Bastounes
+    - Halie M. Rando
+    - Jennifer L. Johnson
+    - Lyudmila N. Trut
+    - Benjamin N. Sacks
+    - Carlos A. Driscoll
+    - Bridgett vonHoldt
+    - Anna V. Kukekova
   publisher: Animal Genetics
-  date: '2018-12-10'
+  date: "2018-12-10"
   link: https://doi.org/gtj95d
   image: images/thumbnails/Four_structural_variants.png
   tags:
-  - foxes
-  - genomes
-  - dogs
-  - behavior
-  - domestication
+    - foxes
+    - genomes
+    - dogs
+    - behavior
+    - domestication
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s41559-018-0611-6
-  title: Red fox genome assembly identifies genomic regions associated with tame and
+  title:
+    Red fox genome assembly identifies genomic regions associated with tame and
     aggressive behaviours
   authors:
-  - Anna V. Kukekova
-  - Jennifer L. Johnson
-  - Xueyan Xiang
-  - Shaohong Feng
-  - Shiping Liu
-  - Halie M. Rando
-  - Anastasiya V. Kharlamova
-  - Yury Herbeck
-  - Natalya A. Serdyukova
-  - Zijun Xiong
-  - Violetta Beklemischeva
-  - Klaus-Peter Koepfli
-  - Rimma G. Gulevich
-  - Anastasiya V. Vladimirova
-  - Jessica P. Hekman
-  - Polina L. Perelman
-  - Aleksander S. Graphodatsky
-  - "Stephen J. O\u2019Brien"
-  - Xu Wang
-  - Andrew G. Clark
-  - Gregory M. Acland
-  - Lyudmila N. Trut
-  - Guojie Zhang
+    - Anna V. Kukekova
+    - Jennifer L. Johnson
+    - Xueyan Xiang
+    - Shaohong Feng
+    - Shiping Liu
+    - Halie M. Rando
+    - Anastasiya V. Kharlamova
+    - Yury Herbeck
+    - Natalya A. Serdyukova
+    - Zijun Xiong
+    - Violetta Beklemischeva
+    - Klaus-Peter Koepfli
+    - Rimma G. Gulevich
+    - Anastasiya V. Vladimirova
+    - Jessica P. Hekman
+    - Polina L. Perelman
+    - Aleksander S. Graphodatsky
+    - "Stephen J. O\u2019Brien"
+    - Xu Wang
+    - Andrew G. Clark
+    - Gregory M. Acland
+    - Lyudmila N. Trut
+    - Guojie Zhang
   publisher: Nature Ecology &amp; Evolution
-  date: '2018-08-06'
+  date: "2018-08-06"
   link: https://doi.org/csvn
   image: images/thumbnails/red_fox_genome_assembly.png
   tags:
-  - foxes
-  - genomes
-  - behavior
-  - domestication
+    - foxes
+    - genomes
+    - behavior
+    - domestication
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3390/genes9060308
-  title: Construction of Red Fox Chromosomal Fragments from the Short-Read Genome
+  title:
+    Construction of Red Fox Chromosomal Fragments from the Short-Read Genome
     Assembly
   authors:
-  - Halie Rando
-  - "Marta Farr\xE9"
-  - Michael Robson
-  - Naomi Won
-  - Jennifer Johnson
-  - Ronak Buch
-  - Estelle Bastounes
-  - Xueyan Xiang
-  - Shaohong Feng
-  - Shiping Liu
-  - Zijun Xiong
-  - Jaebum Kim
-  - Guojie Zhang
-  - Lyudmila Trut
-  - Denis Larkin
-  - Anna Kukekova
+    - Halie M. Rando
+    - "Marta Farr\xE9"
+    - Michael P. Robson
+    - Naomi B. Won
+    - Jennifer L. Johnson
+    - Ronak Buch
+    - Estelle R. Bastounes
+    - Xueyan Xiang
+    - Shaohong Feng
+    - Shiping Liu
+    - Zijun Xiong
+    - Jaebum Kim
+    - Guojie Zhang
+    - Lyudmila N. Trut
+    - Denis M. Larkin
+    - Anna V. Kukekova
   publisher: Genes
-  date: '2018-06-20'
+  date: "2018-06-20"
   link: https://doi.org/gf4p6z
   image: images/thumbnails/red_fox_chromosomal_fragments.png
   tags:
-  - foxes
-  - genomes
-  - high-performance computing
+    - foxes
+    - genomes
+    - high-performance computing
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/ece3.3583
-  title: "Development of a genotype\u2010by\u2010sequencing immunogenetic assay as\
+  title:
+    "Development of a genotype\u2010by\u2010sequencing immunogenetic assay as\
     \ exemplified by screening for variation in red fox with and without endemic rabies\
     \ exposure"
   authors:
-  - Michael E. Donaldson
-  - Yessica Rico
-  - Karsten Hueffer
-  - Halie M. Rando
-  - Anna V. Kukekova
-  - Christopher J. Kyle
+    - Michael E. Donaldson
+    - Yessica Rico
+    - Karsten Hueffer
+    - Halie M. Rando
+    - Anna V. Kukekova
+    - Christopher J. Kyle
   publisher: Ecology and Evolution
-  date: '2017-12-02'
+  date: "2017-12-02"
   link: https://doi.org/gctwp9
   image: images/thumbnails/immunogenetic_assay.png
   tags:
-  - foxes
-  - genomes
-  - wildlife
+    - foxes
+    - genomes
+    - wildlife
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1093/jhered/esx066
   title: Y-Chromosome Markers for the Red Fox
   authors:
-  - Halie M Rando
-  - Jeremy T Stutchman
-  - Estelle R Bastounes
-  - Jennifer L Johnson
-  - Carlos A Driscoll
-  - Christina S Barr
-  - Lyudmila N Trut
-  - Benjamin N Sacks
-  - Anna V Kukekova
+    - Halie M Rando
+    - Jeremy T Stutchman
+    - Estelle R Bastounes
+    - Jennifer L Johnson
+    - Carlos A Driscoll
+    - Christina S Barr
+    - Lyudmila N Trut
+    - Benjamin N Sacks
+    - Anna V Kukekova
   publisher: Journal of Heredity
-  date: '2017-08-14'
+  date: "2017-08-14"
   link: https://doi.org/gbt6tq
   image: images/thumbnails/y_chromosome_markers.png
   tags:
-  - foxes
-  - genomes
-  - wildlife
+    - foxes
+    - genomes
+    - wildlife
   plugin: sources.py
   file: sources.yaml

@@ -1,0 +1,17 @@
+---
+name: Yixuan He '26J
+image: images/yixuan_he.jpg
+description: Undergraduate Researcher
+role: undergrad
+group: alum
+redirect_from:
+  - /members/quinnhe.html
+aliases:
+  - Yixuan He
+  - Quinn He
+links:
+  orcid: 0009-0007-5692-8608
+  email: qhe@smith.edu
+---
+
+Yixuan (Quinn) is a senior Computer Science and Psychology double major. She is from Beijing, China. On campus, she worked on various research projects, including clustermatch and machine learning applications in computer vision. In her leisure time, she enjoys playing video games, doing sports like basketball, badminton and frisbee, cooking, playing electric-guitar, watching animes and handcrafting.
