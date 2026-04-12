@@ -10,8 +10,6 @@ redirect_from:
 
 # {% include icon.html icon="fa-regular fa-newspaper" %}News
 
-Use this page for lab updates, student milestones, publications, talks, and other announcements from the VBIL.
-
 {% if site.posts.size > 0 %}
 
 {% include search-box.html %}
