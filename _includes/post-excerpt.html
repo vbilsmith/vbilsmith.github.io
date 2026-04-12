@@ -9,13 +9,13 @@
   {% assign url = post.url | default: post.link | default: course_website %}
   {% assign title = post.title %}
   {% assign subtitle = post.subtitle %}
+  {% capture display_title %}
+    {% if subtitle %}{{ subtitle }}: {% endif %}{{ title }}
+  {% endcapture %}
   {% if url %}
-    <a href="{{ url | relative_url }}">{{ title }}</a>
+    <a href="{{ url | relative_url }}" class="post-excerpt-title">{{ display_title | strip }}</a>
   {% else %}
-    <span>{{ title }}</span>
-  {% endif %}
-  {% if subtitle %}
-    <p><strong>{{ subtitle }}</strong></p>
+    <span class="post-excerpt-title">{{ display_title | strip }}</span>
   {% endif %}
 
   {% if course_website %}
