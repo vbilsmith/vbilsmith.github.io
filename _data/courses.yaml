@@ -2,20 +2,44 @@
   subtitle: CSC 230
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  course_website: https://smithcsc230.github.io
+  distribution: Systems
+  terms_offered:
+    - Fall 2023
+    - Spring 2025
+    - Spring 2026
+  next_offered: Spring 2027
+  description: Next offering is tentative.
 
-- title: Data Structures
+- title: Introduction to Data Structures
   subtitle: CSC 210
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  course_website: https://smithcsc210.github.io
+  distribution: Core Course
+  terms_offered:
+    - Fall 2023
+    - Spring 2024
+    - Fall 2024
+    - Spring 2025
+    - Fall 2025
+    - Spring 2026
+  next_offered: Taught by other instructors in Fall 2026
+  description: Halie's next offering is currently unknown.
 
+- title: Seminar in Biomedical Big Data
+  subtitle: CSC 334bd
+  group: featured
+  image: images/photo.jpg
+  distribution: Junior/Senior Seminar
+  terms_offered:
+    - Spring 2024
+    - Fall 2025
+  next_offered: Spring 2027
 
+- title: Algorithms for Genomic Data
+  subtitle: CSC 258
+  group: featured
+  image: images/photo.jpg
+  distribution: Theory & Programming
+  next_offered: Fall 2026
