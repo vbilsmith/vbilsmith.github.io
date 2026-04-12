@@ -24,3 +24,18 @@
     - Spring 2026
   next_offered: Taught by other instructors in Fall 2026
   description: Halie's next offering is currently unknown.
+
+- title: Seminar in Biomedical Big Data
+  subtitle: CSC 334bd
+  group: featured
+  image: images/photo.jpg
+  terms_offered:
+    - Spring 2024
+    - Fall 2025
+  next_offered: Spring 2027
+
+- title: Algorithms for Genomic Data
+  subtitle: CSC 258
+  group: featured
+  image: images/photo.jpg
+  next_offered: Fall 2026
