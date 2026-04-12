@@ -1,41 +1,47 @@
+- id: doi:10.1111/jvim.70133
+- type: journal paper
+  tags:
+    - ontology
+    - animals
+    - domestication
 - id: doi:10.2460/ajvr.24.10.0315
   type: journal paper
   tags:
-      - genetics
-      - dogs
-      - machine learning
+    - genetics
+    - dogs
+    - machine learning
 - id: doi:10.1093/jhered/esae022
   type: journal paper
   image: images/jhered_2024_red_fox_map.jpeg
   tags:
-      - domestication
-      - foxes
-      - wildlife
+    - domestication
+    - foxes
+    - wildlife
 - id: doi:10.2460/javma.23.07.0372
   type: journal paper
   image: https://user-images.githubusercontent.com/8975841/250271905-4eed44ba-528a-4a61-a4ec-fa90d51e61f9.jpg
   tags:
-      - reproducibility
-      - genetics
-      - dogs
-      
+    - reproducibility
+    - genetics
+    - dogs
+
 - id: url:https://icbo-conference.github.io/icbo2022/papers/ICBO-2022_paper_1882.pdf
   type: conference paper
   image: https://user-images.githubusercontent.com/8975841/260512613-910f7bcd-2648-48db-8874-d37bca58c8f1.png
   title: Classifying animal breeds with the vertebrate breed ontology (VBO)
   authors:
-      - Sabrina Toro
-      - Nicolas Matentzoglu
-      - Kathleen R. Mullen
-      - Nicole Vasilevsky
-      - Halie M. Rando
-      - Melissa Haendel
-      - Christopher J. Mungall
-      - Zhi-Liang Hu
-      - Gregoire Leroy
-      - Imke Tammen
-      - Frank W. Nicholas
-  publisher: Proceedings of the International Conference on Biomedical Ontology 
+    - Sabrina Toro
+    - Nicolas Matentzoglu
+    - Kathleen R. Mullen
+    - Nicole Vasilevsky
+    - Halie M. Rando
+    - Melissa Haendel
+    - Christopher J. Mungall
+    - Zhi-Liang Hu
+    - Gregoire Leroy
+    - Imke Tammen
+    - Frank W. Nicholas
+  publisher: Proceedings of the International Conference on Biomedical Ontology
   date: "2022-09-25"
   tags:
     - ontology
@@ -46,9 +52,9 @@
   type: journal paper
   image: https://www.medrxiv.org/content/medrxiv/early/2021/06/29/2021.06.23.21259416/F1.large.jpg?width=800&height=600&carousel=1
   tags:
-      - ontology
-      - disease
-      - humans
+    - ontology
+    - disease
+    - humans
 
 - id: url:http://ceur-ws.org/Vol-2976/paper-2.pdf
   type: conference paper
@@ -73,82 +79,82 @@
 - id: doi:10.1128/mSystems.00122-21
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-      - manubot
-      - COVID-19
-- id: doi:10.1128/msystems.00095-21 
+    - manubot
+    - COVID-19
+- id: doi:10.1128/msystems.00095-21
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-      - manubot
-      - COVID-19
+    - manubot
+    - COVID-19
 - id: doi:10.1128/mSystems.00233-21
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-      - manubot
-      - COVID-19
-- id: doi:10.48550/ARXIV.2204.12598  
+    - manubot
+    - COVID-19
+- id: doi:10.48550/ARXIV.2204.12598
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-      - manubot
-      - COVID-19
-- id: doi:10.1128/msystems.00927-22 
+    - manubot
+    - COVID-19
+- id: doi:10.1128/msystems.00927-22
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-      - manubot
-      - COVID-19
-- id: doi:10.1128/msystems.00928-22 
+    - manubot
+    - COVID-19
+- id: doi:10.1128/msystems.00928-22
   image: https://greenelab.github.io/covid19-review/images/N000-overview.png
   tags:
-      - manubot
-      - COVID-19
+    - manubot
+    - COVID-19
 - id: doi:10.1101/2021.03.20.21253896
   image: https://user-images.githubusercontent.com/8975841/112666874-013a3400-8e33-11eb-9be9-5c74f3e397ea.png
   type: preprint
   tags:
-      - ontology
-      - disease
-      - humans
-- id: doi:10.3390/genes10060409 
+    - ontology
+    - disease
+    - humans
+- id: doi:10.3390/genes10060409
   image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
   tags:
-      - foxes
-      - genomes
-      - machine learning
+    - foxes
+    - genomes
+    - machine learning
 - id: doi:10.3390/genes12010097
-  image: images/thumbnails/sequencing_red_fox.png 
+  image: images/thumbnails/sequencing_red_fox.png
   tags:
-      - foxes
-      - genomes
-      - wildlife
+    - foxes
+    - genomes
+    - wildlife
 - id: doi:10.1111/age.12755
-  image: images/thumbnails/Four_structural_variants.png 
+  image: images/thumbnails/Four_structural_variants.png
   tags:
-      - foxes
-      - genomes
-      - dogs
-      - behavior
-      - domestication
+    - foxes
+    - genomes
+    - dogs
+    - behavior
+    - domestication
 - id: doi:10.1038/s41559-018-0611-6
-  image: images/thumbnails/red_fox_genome_assembly.png 
+  image: images/thumbnails/red_fox_genome_assembly.png
   tags:
-      - foxes
-      - genomes
-      - behavior
-      - domestication
+    - foxes
+    - genomes
+    - behavior
+    - domestication
 - id: doi:10.3390/genes9060308
-  image: images/thumbnails/red_fox_chromosomal_fragments.png 
+  image: images/thumbnails/red_fox_chromosomal_fragments.png
   tags:
-      - foxes
-      - genomes
-      - high-performance computing
+    - foxes
+    - genomes
+    - high-performance computing
 - id: doi:10.1002/ece3.3583
   image: images/thumbnails/immunogenetic_assay.png
   tags:
-      - foxes
-      - genomes
-      - wildlife
+    - foxes
+    - genomes
+    - wildlife
 - id: doi:10.1093/jhered/esx066
   image: images/thumbnails/y_chromosome_markers.png
-  tags: 
-      - foxes
-      - genomes
-      - wildlife
+  tags:
+    - foxes
+    - genomes
+    - wildlife
