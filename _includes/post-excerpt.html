@@ -25,6 +25,10 @@
     </p>
   {% endif %}
 
+  {% if post.distribution %}
+    <p><strong>Distribution:</strong> {{ post.distribution }}</p>
+  {% endif %}
+
   {% if post.next_offered %}
     <p><strong>Next offering:</strong> {{ post.next_offered }}</p>
   {% endif %}
