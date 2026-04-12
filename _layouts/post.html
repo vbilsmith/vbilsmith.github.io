@@ -7,10 +7,13 @@ layout: default
 {%
   include post-info.html
   author=page.author
+  people=page.people
   member=page.member
   published=page.date
   updated=page.last_modified_at
   tags=page.tags
+  hide_author_image=true
+  hide_updated=true
 %}
 
 {% include section.html %}
