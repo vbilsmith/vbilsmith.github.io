@@ -1,9 +1,11 @@
 ---
 name: Tseegi Nyamdorj '25
-image: images/TseegiNyamdorj.png
+image: images/tseegi_nyamdorj.png
 description: Undergraduate Researcher
 role: undergrad
 group: alum
+redirect_from:
+  - /members/TseegiNyamdorj.html
 links:
   email: tnyamdorj@smith.edu
 
