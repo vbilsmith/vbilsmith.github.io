@@ -18,20 +18,18 @@ Use this page for lab updates, student milestones, publications, talks, and othe
 
 {% include search-info.html %}
 
-{% assign posts_by_year = site.posts
-  | group_by_exp: "post", "post.date | date: '%Y'"
-%}
+{% assign current_year = "" %}
 
-{% for year in posts_by_year %}
-## {{ year.name }}
-
-{% for post in year.items %}
+{% for post in site.posts %}
+{% assign post_year = post.date | date: "%Y" %}
+{% if post_year != current_year %}
+{% assign current_year = post_year %}
+## {{ current_year }}
+{% endif %}
 {% include post-excerpt.html
   lookup=post.slug
   show_full_content=true
 %}
-{% endfor %}
-
 {% endfor %}
 
 {% else %}
