@@ -1,13 +1,54 @@
-{% assign post = site.posts 
+{% assign post = site.posts
   | where_exp: "post", "post.slug == include.lookup"
   | first
   | default: include
 %}
 
 <div class="post-excerpt">
-  {% assign url = include.url | default: post.url %}
+  {% assign course_website = post.course_website | default: empty %}
+  {% assign url = include.url | default: post.url | default: post.link | default: course_website %}
   {% assign title = include.title | default: post.title %}
-  <a href="{{ url | relative_url }}">{{ title }}</a>
+  {% assign subtitle = post.subtitle %}
+  {% capture display_title %}
+    {% if subtitle %}{{ subtitle }}: {% endif %}{{ title }}
+  {% endcapture %}
+  {% if url %}
+    <a href="{{ url | relative_url }}" class="post-excerpt-title">{{ display_title | strip }}</a>
+  {% else %}
+    <span class="post-excerpt-title">{{ display_title | strip }}</span>
+  {% endif %}
+
+  {% if course_website %}
+    <p>
+      <strong>Course website:</strong>
+      <a href="{{ course_website }}">{{ course_website }}</a>
+    </p>
+  {% endif %}
+
+  {% if post.distribution %}
+    <p><strong>Distribution:</strong> {{ post.distribution }}</p>
+  {% endif %}
+
+  {% if post.next_offered %}
+    <p><strong>Next offering:</strong> {{ post.next_offered }}</p>
+  {% endif %}
+
+  {% assign terms_offered = post.terms_offered | default: empty %}
+  {% if terms_offered.size > 0 %}
+    {% assign teaching_link = "/teaching" | relative_url %}
+    <p><strong>Previously offered:</strong></p>
+    <div class="tags">
+      {% for term in terms_offered %}
+        <a
+          href="{{ teaching_link }}?search=&quot;{{ term }}&quot;"
+          class="tag"
+          data-tooltip="Show courses taught in {{ term }}"
+        >
+          {{ term }}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
 
   {%
     include post-info.html
@@ -26,12 +67,13 @@
       | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
       | default: include.excerpt
       | default: post.excerpt
+      | default: post.description
       | default: ""
       | strip_html
     %}
   {% endif %}
   {% assign search = body
-    | strip_html 
+    | strip_html
     | strip_newlines
     | regex_strip
   %}

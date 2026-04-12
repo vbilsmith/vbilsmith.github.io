@@ -1,5 +1,36 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1111/jvim.70133
+  title: 'The Vertebrate Breed Ontology: Toward Effective Breed Data Standardization'
+  authors:
+  - Kathleen R. Mullen
+  - Imke Tammen
+  - Nicolas A. Matentzoglu
+  - Marius Mather
+  - James P. Balhoff
+  - Elizabeth Esdaile
+  - Gregoire Leroy
+  - Carissa A. Park
+  - Halie M. Rando
+  - Nadia T. Saklou
+  - Tracy L. Webb
+  - Nicole A. Vasilevsky
+  - Christopher J. Mungall
+  - Melissa A. Haendel
+  - Frank W. Nicholas
+  - Sabrina Toro
+  publisher: Journal of Veterinary Internal Medicine
+  date: '2025-07-01'
+  link: https://doi.org/hbwvfw
+  plugin: sources.py
+  file: sources.yaml
+- type: journal paper
+  tags:
+  - ontology
+  - animals
+  - domestication
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.2460/ajvr.24.10.0315
   title: Standardizing canine breed data in veterinary records is challenging, but
     computer vision offers an alternative perspective on breed assignment
@@ -45,7 +76,7 @@
   date: '2024-04-16'
   link: https://doi.org/gtq55b
   type: journal paper
-  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jhered/PAP/10.1093_jhered_esae022/2/esae022_fig5.jpeg?Expires=1723205087&Signature=mh2K5Shh-1aChRpFUPq8dPl4ialuOAmtNKsM7XG945m-JwAUUszmS4h4GE0v-rxl2AyRgTLF33b3g78SzVtNpTIpcOPVbmKDa2WQBbtW9LHyhy76-c2DRfWqiTu6oRSuBSilJSVIADe7vLNXMmEOcDT5sa7pAUnYJTDn-3zMoVFtakNdZVdyU7-M6Bm-KcJO1cemNxk2602QfDnSWmyZyvCGjPcjiQK2Eqv83vdBADVlDgVkgJ83~Dno4tSCV3vSrznWuwe3g-izFviWP-sQB-JbbjqRIguAZbund7hYvV8-gNaUof9UcjrbGOQQSiN8iJ1lJakfd8zxruLpA4FvLA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  image: images/jhered_2024_red_fox_map.jpeg
   tags:
   - domestication
   - foxes
@@ -503,7 +534,7 @@
   publisher: Genes
   date: '2019-05-28'
   link: https://doi.org/gk67ng
-  image: images/thumbnails/sequencing_red_fox.png
+  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
   tags:
   - foxes
   - genomes
@@ -524,7 +555,7 @@
   publisher: Genes
   date: '2021-01-14'
   link: https://doi.org/gtj95c
-  image: images/thumbnails/Red_fox_ychromosome_genes10060409.png
+  image: images/thumbnails/sequencing_red_fox.png
   tags:
   - foxes
   - genomes
