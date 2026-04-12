@@ -51,13 +51,19 @@
     </div>
   {% endif %}
 
+  {% assign info_author = include.author | default: matched_post.author %}
+  {% assign info_people = include.people | default: matched_post.people %}
+  {% assign info_published = include.date | default: matched_post.date %}
+  {% assign info_updated = include.last_modified_at | default: matched_post.last_modified_at %}
+  {% assign info_tags = include.tags | default: matched_post.tags %}
+
   {%
     include post-info.html
-    author=include.author | default: matched_post.author
-    people=include.people | default: matched_post.people
-    published=include.date | default: matched_post.date
-    updated=include.last_modified_at | default: matched_post.last_modified_at
-    tags=include.tags | default: matched_post.tags
+    author=info_author
+    people=info_people
+    published=info_published
+    updated=info_updated
+    tags=info_tags
   %}
 
   {% assign body = include.content | default: matched_post.content | default: "" %}
