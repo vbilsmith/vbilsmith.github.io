@@ -1,14 +1,13 @@
-{% assign post = site.posts
+{% assign matched_post = site.posts
   | where_exp: "post", "post.slug == include.lookup"
   | first
-  | default: include
 %}
 
 <div class="post-excerpt">
-  {% assign course_website = post.course_website | default: empty %}
-  {% assign url = include.url | default: post.url | default: post.link | default: course_website %}
-  {% assign title = include.title | default: post.title %}
-  {% assign subtitle = post.subtitle %}
+  {% assign course_website = include.course_website | default: matched_post.course_website | default: empty %}
+  {% assign url = include.url | default: matched_post.url | default: include.link | default: matched_post.link | default: course_website %}
+  {% assign title = include.title | default: matched_post.title | default: include.lookup %}
+  {% assign subtitle = include.subtitle | default: matched_post.subtitle %}
   {% capture display_title %}
     {% if subtitle %}{{ subtitle }}: {% endif %}{{ title }}
   {% endcapture %}
@@ -25,15 +24,17 @@
     </p>
   {% endif %}
 
-  {% if post.distribution %}
-    <p><strong>Distribution:</strong> {{ post.distribution }}</p>
+  {% assign distribution = include.distribution | default: matched_post.distribution %}
+  {% if distribution %}
+    <p><strong>Distribution:</strong> {{ distribution }}</p>
   {% endif %}
 
-  {% if post.next_offered %}
-    <p><strong>Next offering:</strong> {{ post.next_offered }}</p>
+  {% assign next_offered = include.next_offered | default: matched_post.next_offered %}
+  {% if next_offered %}
+    <p><strong>Next offering:</strong> {{ next_offered }}</p>
   {% endif %}
 
-  {% assign terms_offered = post.terms_offered | default: empty %}
+  {% assign terms_offered = include.terms_offered | default: matched_post.terms_offered | default: empty %}
   {% if terms_offered.size > 0 %}
     {% assign teaching_link = "/teaching" | relative_url %}
     <p><strong>Previously offered:</strong></p>
@@ -52,32 +53,35 @@
 
   {%
     include post-info.html
-    author=post.author
-    people=post.people
-    published=post.date
-    updated=post.last_modified_at
-    tags=post.tags
+    author=include.author | default: matched_post.author
+    people=include.people | default: matched_post.people
+    published=include.date | default: matched_post.date
+    updated=include.last_modified_at | default: matched_post.last_modified_at
+    tags=include.tags | default: matched_post.tags
   %}
 
-  {% assign body = include.content | default: post.content | default: "" %}
+  {% assign body = include.content | default: matched_post.content | default: "" %}
   {% if include.show_full_content %}
-    {% assign excerpt = body | markdownify | strip_html %}
+    <div class="post-excerpt-body" data-search="{{ body | strip_html | strip_newlines | regex_strip }}">
+      {{ body | markdownify }}
+    </div>
   {% else %}
     {% assign excerpt = body
       | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
       | default: include.excerpt
-      | default: post.excerpt
-      | default: post.description
+      | default: matched_post.excerpt
+      | default: include.description
+      | default: matched_post.description
       | default: ""
       | strip_html
     %}
+    {% assign search = body
+      | strip_html
+      | strip_newlines
+      | regex_strip
+    %}
+    <p data-search="{{ search }}">
+      {{ excerpt }}
+    </p>
   {% endif %}
-  {% assign search = body
-    | strip_html
-    | strip_newlines
-    | regex_strip
-  %}
-  <p data-search="{{ search }}">
-    {{ excerpt }}
-  </p>
 </div>
