@@ -1,5 +1,36 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1111/jvim.70133
+  title: 'The Vertebrate Breed Ontology: Toward Effective Breed Data Standardization'
+  authors:
+  - Kathleen R. Mullen
+  - Imke Tammen
+  - Nicolas A. Matentzoglu
+  - Marius Mather
+  - James P. Balhoff
+  - Elizabeth Esdaile
+  - Gregoire Leroy
+  - Carissa A. Park
+  - Halie M. Rando
+  - Nadia T. Saklou
+  - Tracy L. Webb
+  - Nicole A. Vasilevsky
+  - Christopher J. Mungall
+  - Melissa A. Haendel
+  - Frank W. Nicholas
+  - Sabrina Toro
+  publisher: Journal of Veterinary Internal Medicine
+  date: '2025-07-01'
+  link: https://doi.org/hbwvfw
+  plugin: sources.py
+  file: sources.yaml
+- type: journal paper
+  tags:
+  - ontology
+  - animals
+  - domestication
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.2460/ajvr.24.10.0315
   title: Standardizing canine breed data in veterinary records is challenging, but
     computer vision offers an alternative perspective on breed assignment
