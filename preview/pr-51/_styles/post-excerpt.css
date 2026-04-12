@@ -14,9 +14,12 @@
   margin: 0 !important;
 }
 
-.post-excerpt > a:first-child {
+.post-excerpt-title {
   width: 100%;
+  font-size: 1.35rem;
   font-weight: var(--semi-bold);
+  line-height: 1.3;
+  text-decoration: none;
 }
 
 .post-excerpt > div {
