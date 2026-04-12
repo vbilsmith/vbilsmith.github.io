@@ -22,9 +22,7 @@
   publisher: Journal of Veterinary Internal Medicine
   date: '2025-07-01'
   link: https://doi.org/hbwvfw
-  plugin: sources.py
-  file: sources.yaml
-- type: journal paper
+  type: journal paper
   tags:
   - ontology
   - animals
