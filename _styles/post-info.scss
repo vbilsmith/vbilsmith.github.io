@@ -31,3 +31,26 @@
   text-align: center;
   white-space: nowrap;
 }
+
+.mentioned-people {
+  margin: 24px 0 0;
+}
+
+.mentioned-people-label {
+  margin: 0 0 12px;
+  color: var(--gray);
+  font-weight: var(--semi-bold);
+  text-align: center;
+}
+
+.mentioned-people-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+}
+
+.mentioned-people-list .portrait {
+  margin: 0;
+}
