@@ -1,0 +1,16 @@
+{% assign affiliations = include.affiliations | default: empty %}
+{% assign affiliations = affiliations | join: "," | split: "," | array_filter %}
+
+{% if affiliations.size > 0 %}
+  <div class="tags">
+    {% for affiliation in affiliations %}
+      <a
+        href="{{ '/team' | relative_url }}?search=&quot;{{ affiliation }}&quot;"
+        class="tag"
+        data-tooltip="Show team members with {{ affiliation }}"
+      >
+        {{ affiliation }}
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}

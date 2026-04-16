@@ -20,6 +20,8 @@ layout: default
 
 {{ content }}
 
+{% include member-affiliations.html affiliations=page.affiliations %}
+
 {% assign related_posts = site.posts
   | where_exp: "post", "post.people contains page.slug"
 %}
