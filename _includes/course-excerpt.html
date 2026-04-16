@@ -1,0 +1,74 @@
+<div class="post-excerpt">
+  {% assign course_website = include.course_website | default: empty %}
+  {% assign url = include.url | default: include.link | default: course_website %}
+  {% assign title = include.title | default: "[no course title]" %}
+  {% assign subtitle = include.subtitle %}
+  {% capture display_title %}
+    {% if subtitle %}{{ subtitle }}: {% endif %}{{ title }}
+  {% endcapture %}
+  {% if url %}
+    <a href="{{ url | relative_url }}" class="post-excerpt-title">{{ display_title | strip }}</a>
+  {% else %}
+    <span class="post-excerpt-title">{{ display_title | strip }}</span>
+  {% endif %}
+
+  {% if course_website %}
+    <p>
+      <strong>Course website:</strong>
+      <a href="{{ course_website }}">{{ course_website }}</a>
+    </p>
+  {% endif %}
+
+  {% if include.distribution %}
+    <p><strong>Distribution:</strong> {{ include.distribution }}</p>
+  {% endif %}
+
+  {% assign teaching_link = "/teaching" | relative_url %}
+  {% if include.next_offered %}
+    <p><strong>Next offering:</strong></p>
+    <div class="tags">
+      <a
+        href="{{ teaching_link }}?search=&quot;{{ include.next_offered }}&quot;"
+        class="tag"
+        data-tooltip="Show courses taught in {{ include.next_offered }}"
+      >
+        {{ include.next_offered }}
+      </a>
+    </div>
+  {% endif %}
+
+  {% assign terms_offered = include.terms_offered | default: empty %}
+  {% if terms_offered.size > 0 %}
+    <p><strong>Previously offered:</strong></p>
+    <div class="tags">
+      {% for term in terms_offered %}
+        <a
+          href="{{ teaching_link }}?search=&quot;{{ term }}&quot;"
+          class="tag"
+          data-tooltip="Show courses taught in {{ term }}"
+        >
+          {{ term }}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% assign body = include.content | default: "" %}
+  {% if body != "" %}
+    {% assign excerpt = body
+      | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+      | default: include.excerpt
+      | default: include.description
+      | default: ""
+      | strip_html
+    %}
+    {% assign search = body
+      | strip_html
+      | strip_newlines
+      | regex_strip
+    %}
+    <p data-search="{{ search }}">
+      {{ excerpt }}
+    </p>
+  {% endif %}
+</div>

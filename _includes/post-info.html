@@ -5,7 +5,13 @@
       | first
     %}
     {% if member %}
-      {% include portrait.html lookup=include.author style="tiny" %}
+      {% unless include.hide_author_image %}
+        {% include portrait.html lookup=include.author style="tiny" %}
+      {% endunless %}
+      <span data-tooltip="Author">
+        {% include icon.html icon="fa-solid fa-feather-pointed" %}
+        <span>{{ member.name }}</span>
+      </span>
     {% else %}
       <span data-tooltip="Author">
         {% include icon.html icon="fa-solid fa-feather-pointed" %}
@@ -24,14 +30,36 @@
     </span>
   {% endif %}
 
+  {% unless include.hide_updated %}
   {% if updated and updated != "" and updated != published %}
     <span data-tooltip="Last updated on">
       {% include icon.html icon="fa-solid fa-clock-rotate-left" %}
       <span>{{ updated }}</span>
     </span>
   {% endif %}
+  {% endunless %}
 </div>
 
+{% assign tagged_people = include.people | default: empty %}
+{% assign tagged_people = tagged_people | join: "," | split: "," | array_filter %}
+
+{% if tagged_people.size > 0 %}
+  <p class="center">
+    Mentioned:
+    {% for person in tagged_people %}
+      {% assign member = site.members
+        | where_exp: "member", "member.slug == person"
+        | first
+      %}
+      {% if member %}
+        <a href="{{ member.url | relative_url }}">{{ member.name }}</a>{% unless forloop.last %}, {% endunless %}
+      {% else %}
+        {{ person }}{% unless forloop.last %}, {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </p>
+{% endif %}
+
 {% if include.tags %}
-  {% include tags.html tags=include.tags link="blog" %}
+  {% include tags.html tags=include.tags link="news" %}
 {% endif %}
