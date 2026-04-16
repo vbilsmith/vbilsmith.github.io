@@ -21,7 +21,7 @@ layout: default
 {{ content }}
 
 {% assign related_posts = site.posts
-  | where_exp: "post", "post.author == page.slug or post.people contains page.slug"
+  | where_exp: "post", "post.people contains page.slug"
 %}
 
 {% if related_posts.size > 0 %}
