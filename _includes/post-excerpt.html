@@ -52,5 +52,12 @@
     <p data-search="{{ search }}">
       {{ excerpt }}
     </p>
+    {% if url %}
+      <p class="post-excerpt-more">
+        <a href="{{ url | relative_url }}">Click here for more</a>
+      </p>
+    {% endif %}
   {% endif %}
+
+  {% include mentioned-people.html people=info_people %}
 </div>

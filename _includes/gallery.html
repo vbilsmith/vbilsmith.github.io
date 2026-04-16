@@ -1,0 +1,40 @@
+{% assign image_list = include.images | default: "" | split: "|" | array_filter %}
+{% assign alt_list = include.alts | default: "" | split: "|" %}
+{% assign caption_list = include.captions | default: "" | split: "|" %}
+{% assign folder = include.folder | default: "" %}
+
+{% if image_list.size > 0 %}
+  <div class="gallery">
+    {% for image_name in image_list %}
+      {% assign image_name = image_name | strip %}
+      {% assign alt_text = alt_list[forloop.index0] | default: "" | strip %}
+      {% assign caption_text = caption_list[forloop.index0] | default: "" | strip %}
+      {% if folder != "" %}
+        {% assign image_path = folder | append: "/" | append: image_name %}
+      {% else %}
+        {% assign image_path = image_name %}
+      {% endif %}
+
+      <figure class="figure gallery-item">
+        <a class="figure-image" aria-label="{{ caption_text | default: alt_text | default: 'gallery image' }}">
+          <img
+            src="{{ image_path | relative_url }}"
+            style="
+              width: 100%;
+              max-width: 100%;
+              max-height: {{ include.height | default: 'unset' }};
+            "
+            alt="{{ alt_text | default: caption_text | default: 'gallery image' }}"
+            loading="lazy"
+            {% include fallback.html %}
+          >
+        </a>
+        {% if caption_text != "" %}
+          <figcaption class="figure-caption">
+            {{ caption_text | markdownify | remove: "<p>" | remove: "</p>" }}
+          </figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+{% endif %}

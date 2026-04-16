@@ -1,0 +1,13 @@
+{% assign tagged_people = include.people | default: empty %}
+{% assign tagged_people = tagged_people | join: "," | split: "," | array_filter %}
+
+{% if tagged_people.size > 0 %}
+  <div class="mentioned-people">
+    <p class="mentioned-people-label">Mentioned</p>
+    <div class="mentioned-people-list">
+      {% for person in tagged_people %}
+        {% include portrait.html lookup=person style="tiny" %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

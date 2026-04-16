@@ -9,7 +9,8 @@
     <img
       src="{{ include.image | relative_url }}"
       style="
-        width: {{ include.width | default: "auto" }};
+        width: {{ include.width | default: "25%" }};
+        max-width: 100%;
         max-height: {{ include.height | default: "unset" }};
       "
       alt="{{ include.caption | default: "figure image" }}"

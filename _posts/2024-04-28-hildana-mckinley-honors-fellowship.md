@@ -4,14 +4,13 @@ author: halie_rando
 people:
   - hildana_shiferaw
 tags:
-  - announcement
   - honors
+  - fellowship
+  - McKinley
 ---
 
 <!-- excerpt start -->
-Hildana Shiferaw has been selected for the McKinley Honors Fellowship Program.
+We are excited to share that Hildana Shiferaw has been selected as an Honors Fellow through the AEMES McKinley Fellowship Program!
 <!-- excerpt end -->
 
-We are excited to share that Hildana Shiferaw has been selected for the McKinley Honors Fellowship Program.
-
-The fellowship will support Hildana's honors thesis work in the VBIL. More information about Smith's AEMES programs is available [here](https://www.smith.edu/academics/departments-programs-courses/aemes).
+The fellowship will support Hildana's honors thesis work in the VBIL during her senior year. More information about Smith's AEMES programs is available [here](https://www.smith.edu/academics/departments-programs-courses/aemes).
