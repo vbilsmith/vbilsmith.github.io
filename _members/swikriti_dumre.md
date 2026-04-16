@@ -1,4 +1,3 @@
-
 ---
 name: Swikriti Dumre '28
 image: images/swiks2.jpg
