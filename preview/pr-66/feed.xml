@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/preview/pr-66/feed.xml" rel="self" type="application/atom+xml" /><link href="/preview/pr-66/" rel="alternate" type="text/html" /><updated>2026-04-17T00:00:00+00:00</updated><id>/preview/pr-66/feed.xml</id><title type="html">Veterinary and Biological Informatics Lab</title><subtitle>Applying computing to better understand health phenotypes and animal diversity</subtitle><entry><title type="html">Students present at CCSC-NE</title><link href="/preview/pr-66/2026/04/10/CCSCNE.html" rel="alternate" type="text/html" title="Students present at CCSC-NE" /><published>2026-04-10T00:00:00+00:00</published><updated>2026-04-16T23:38:20+00:00</updated><id>/preview/pr-66/2026/04/10/CCSCNE</id><content type="html" xml:base="/preview/pr-66/2026/04/10/CCSCNE.html"><![CDATA[<!-- excerpt start -->
+<p>Our lab gave several presentations at <a href="https://www.ccscne.org/">CCSC-NE</a>, which was held this year here at Smith.
+<!-- excerpt end --></p>
+
+<p>In the afternoon, Halie and Jade Lili (one of our amazing CSC 210 TAs) as well as two former data structures students presented the <a href="https://handsondatastructures.github.io/">unique data structures curriculum</a> that Halie has been using in CSC 210 for the past few semesters. Their presentation was one of two tutorials offered at the conference this year.</p>
+
+<p>In the evening, two groups from the lab also presented posters at the <a href="https://www.ccscne.org/2026/StudentPosters.pdf">undergraduate research poster session</a>:</p>
+
+<ul>
+  <li>Ayesha &amp; Yuzhang presented their poster “Mouse Model of Disease - Language, Metadata, and Cross-Species Comparison”</li>
+  <li>
+    <p>Nargiz presented her poster “Microsatellites Made Accessible: An Open-Source Tool for Microsatellite Data Analysis”</p>
+
+    <div class="gallery">
+    
+      
+      
+      
+      
+
+    <figure class="figure gallery-item">
+      <a class="figure-image" aria-label="Ayesha and Yuzhang presenting their poster.">
+        <img src="/preview/pr-66/images/news/2026-04-10-ccscne/CCSCNE-YFAS.png" style="
+            width: 100%;
+            max-width: 100%;
+            max-height: unset;
+          " alt="Ayesha and Yuzhang presenting their poster." loading="lazy" onerror="this.src = '/preview/pr-66/images/fallback.svg'; this.onerror = null;" />
+      </a>
+        
+        <figcaption class="figure-caption">
+          Ayesha and Yuzhang presenting their poster.
+
+        </figcaption>
+        
+    </figure>
+    
+      
+      
+      
+      
+
+    <figure class="figure gallery-item">
+      <a class="figure-image" aria-label="Nargiz presenting her poster.">
+        <img src="/preview/pr-66/images/news/2026-04-10-ccscne/CCSCNE-NA.png" style="
+            width: 100%;
+            max-width: 100%;
+            max-height: unset;
+          " alt="Nargiz presenting her poster." loading="lazy" onerror="this.src = '/preview/pr-66/images/fallback.svg'; this.onerror = null;" />
+      </a>
+        
+        <figcaption class="figure-caption">
+          Nargiz presenting her poster.
+
+        </figcaption>
+        
+    </figure>
+    
+</div>
+  </li>
+</ul>]]></content><author><name>halie_rando</name></author><category term="research" /><category term="conference" /><category term="poster" /><category term="talk" /><summary type="html"><![CDATA[Our lab gave several presentations at CCSC-NE, which was held this year here at Smith.]]></summary></entry><entry><title type="html">Four student groups submit abstracts to ISMB</title><link href="/preview/pr-66/2026/04/09/ISMB.html" rel="alternate" type="text/html" title="Four student groups submit abstracts to ISMB" /><published>2026-04-09T00:00:00+00:00</published><updated>2026-04-16T23:38:20+00:00</updated><id>/preview/pr-66/2026/04/09/ISMB</id><content type="html" xml:base="/preview/pr-66/2026/04/09/ISMB.html"><![CDATA[<!-- excerpt start -->
+<p>Four student research teams submitted abstract to <a href="https://www.iscb.org/ismb2026/home">Intelligent Systems in Molecular Biology</a>, one of the major computational biology conferences, which will be held in Washington D.C. in July.
+<!-- excerpt end --></p>
+
+<p>Some of the projects include:</p>
+
+<ul>
+  <li>Natural language processing approaches for identifying the methods used in a study based on its metadata (submitted to <a href="https://www.bio-ontologies.org.uk/">BOKR</a>)</li>
+  <li>Natural language processing approaches for comparing the similarity of experiments across species (submitted to <a href="https://www.bio-ontologies.org.uk/">BOKR</a>)</li>
+  <li>An open-source tool for extracting fluorescent peak information from fragment analysis files in the ABIF format (submitted to <a href="https://www.open-bio.org/events/bosc-2026/">BOSC</a>)</li>
+  <li>An analysis of alternative clustering approaches to understanding molecular phenotypes of high-grade serous ovarian cancer (submitted to <a href="https://irna.iscb.org/">iRNA</a>)</li>
+</ul>
+
+<p>Notably, all of these submissions had at least one sophomore as a co-author! Fantastic work everyone!</p>]]></content><author><name>halie_rando</name></author><category term="research" /><category term="abstracts" /><category term="conference" /><summary type="html"><![CDATA[Four student research teams submitted abstract to Intelligent Systems in Molecular Biology, one of the major computational biology conferences, which will be held in Washington D.C. in July.]]></summary></entry><entry><title type="html">Students research accepted to SAVY</title><link href="/preview/pr-66/2026/03/06/SAVY.html" rel="alternate" type="text/html" title="Students research accepted to SAVY" /><published>2026-03-06T00:00:00+00:00</published><updated>2026-04-16T23:38:20+00:00</updated><id>/preview/pr-66/2026/03/06/SAVY</id><content type="html" xml:base="/preview/pr-66/2026/03/06/SAVY.html"><![CDATA[<!-- excerpt start -->
+<p>Exciting news: the lab had two abstracts accepted at the <a href="https://web.cvent.com/event/aa14bd81-31f3-456b-8f5c-8a22e0fcf5cc/summary">third annual Symposium on AI in Veterinary Medicine (SAVY3.0)</a>, which will be held at Cornell University in May.
+<!-- excerpt end --></p>
+
+<p>Caitlyn Kim will present her poster “A New Benchmarking Dataset of AKC-Registered Dog Breeds for Fine-Grained Image Classification Tasks”, describing the work her team has been doing to build a new dataset of images of dogs with confirmed breed labels. Co-authors include Nora and Frankie.</p>
+
+<p>Elaine Chen is the lead author on the abstract “Differentiating Effects of Neural Network Architecture versus Dataset in Computer Vision’s Dog Breed Identification Problem”, which has been accepted as <a href="https://web.cvent.com/event/aa14bd81-31f3-456b-8f5c-8a22e0fcf5cc/websitePage:98c370f0-c898-447a-aa1b-54632d0fd6e7">one of five talks in the session on AI Applications in Companion Animal Health</a>. Co-authors include Glenvelis Perez and Yixuan (Quinn) He.</p>
+
+<p>The teams are looking forward to attending this incredible symposium and sharing their work with the community!</p>]]></content><author><name>halie_rando</name></author><category term="research" /><category term="conference" /><category term="poster" /><category term="talk" /><summary type="html"><![CDATA[Exciting news: the lab had two abstracts accepted at the third annual Symposium on AI in Veterinary Medicine (SAVY3.0), which will be held at Cornell University in May.]]></summary></entry><entry><title type="html">Alina Yildirim Selected for the McKinley Honors Fellowship Program</title><link href="/preview/pr-66/2025/04/29/alina-mckinley-honors-fellowship.html" rel="alternate" type="text/html" title="Alina Yildirim Selected for the McKinley Honors Fellowship Program" /><published>2025-04-29T00:00:00+00:00</published><updated>2026-04-16T23:38:20+00:00</updated><id>/preview/pr-66/2025/04/29/alina-mckinley-honors-fellowship</id><content type="html" xml:base="/preview/pr-66/2025/04/29/alina-mckinley-honors-fellowship.html"><![CDATA[<!-- excerpt start -->
+<p>We are excited to share that Alina Yildirim has been selected as an Honors Fellow through the AEMES McKinley Fellowship Program!
+<!-- excerpt end --></p>
+
+<p>The fellowship will support Alina’s honors thesis work in the VBIL during her senior year. More information about Smith’s AEMES programs is available <a href="https://www.smith.edu/academics/departments-programs-courses/aemes">here</a>.</p>]]></content><author><name>halie_rando</name></author><category term="honors" /><category term="fellowship" /><category term="McKinley" /><summary type="html"><![CDATA[We are excited to share that Alina Yildirim has been selected as an Honors Fellow through the AEMES McKinley Fellowship Program!]]></summary></entry><entry><title type="html">Hildana Shiferaw Presents Honors Thesis</title><link href="/preview/pr-66/2025/04/28/hildana-thesis-presentation.html" rel="alternate" type="text/html" title="Hildana Shiferaw Presents Honors Thesis" /><published>2025-04-28T00:00:00+00:00</published><updated>2026-04-16T23:38:20+00:00</updated><id>/preview/pr-66/2025/04/28/hildana-thesis-presentation</id><content type="html" xml:base="/preview/pr-66/2025/04/28/hildana-thesis-presentation.html"><![CDATA[<!-- excerpt start -->
+<p>Today Hildana Shiferaw gave an excellent presentation of her honors thesis on a urine-based screening approach for ovarian cancer!
+<!-- excerpt end --></p>
+
+<p>Her honors thesis is titled “System Design of a Urine-Based Screening Approach for Ovarian Cancer Informed by Computational Identification of miRNAs as Biomarkers” and is co-advised by Halie Rando (CSC) and Mike Kinsinger (EGR). Notably, Hildana completed a programming-heavy computational biology thesis without any CSC coursework after CSC 110! We are all so proud of her achievements – congratulations Hildana!</p>]]></content><author><name>halie_rando</name></author><category term="honors" /><category term="thesis" /><summary type="html"><![CDATA[Today Hildana Shiferaw gave an excellent presentation of her honors thesis on a urine-based screening approach for ovarian cancer!]]></summary></entry><entry><title type="html">Students present at CSIG</title><link href="/preview/pr-66/2024/07/24/CSIG.html" rel="alternate" type="text/html" title="Students present at CSIG" /><published>2024-07-24T00:00:00+00:00</published><updated>2026-04-16T23:38:20+00:00</updated><id>/preview/pr-66/2024/07/24/CSIG</id><content type="html" xml:base="/preview/pr-66/2024/07/24/CSIG.html"><![CDATA[<p>Rising seniors Hildana Shiferaw and Tseegi Nyamdorj presented lightning talks at Computational Systems for Integrative Genomics at the Flatiron Institute in NYC!</p>
+
+<p>Tseegi’s talk was titled “Manubot: Incorporating MS Word track changes into version controlled writing workflows”, and Hildana’s was titled “Comparing semantic and biological representations of animal models.”</p>
+
+<p>We also got to take a tour of their in-house computing infrastructure!</p>
+
+<div class="gallery">
+    
+      
+      
+      
+      
+
+      <figure class="figure gallery-item">
+        <a class="figure-image" aria-label="CSIG group photo 1">
+          <img src="/preview/pr-66/images/news/2024-07-24-csig/img-0610.jpeg" style="
+              width: 100%;
+              max-width: 100%;
+              max-height: unset;
+            " alt="CSIG group photo 1" loading="lazy" onerror="this.src = '/preview/pr-66/images/fallback.svg'; this.onerror = null;" />
+        </a>
+        
+      </figure>
+    
+      
+      
+      
+      
+
+      <figure class="figure gallery-item">
+        <a class="figure-image" aria-label="CSIG group photo 2">
+          <img src="/preview/pr-66/images/news/2024-07-24-csig/img-0612.jpeg" style="
+              width: 100%;
+              max-width: 100%;
+              max-height: unset;
+            " alt="CSIG group photo 2" loading="lazy" onerror="this.src = '/preview/pr-66/images/fallback.svg'; this.onerror = null;" />
+        </a>
+        
+      </figure>
+    
+      
+      
+      
+      
+
+      <figure class="figure gallery-item">
+        <a class="figure-image" aria-label="CSIG computing infrastructure tour">
+          <img src="/preview/pr-66/images/news/2024-07-24-csig/img-1048.jpeg" style="
+              width: 100%;
+              max-width: 100%;
+              max-height: unset;
+            " alt="CSIG computing infrastructure tour" loading="lazy" onerror="this.src = '/preview/pr-66/images/fallback.svg'; this.onerror = null;" />
+        </a>
+        
+      </figure>
+    
+  </div>]]></content><author><name>halie_rando</name></author><category term="conference" /><category term="CSIG" /><category term="talks" /><summary type="html"><![CDATA[Rising seniors Hildana Shiferaw and Tseegi Nyamdorj presented lightning talks at Computational Systems for Integrative Genomics at the Flatiron Institute in NYC!]]></summary></entry><entry><title type="html">Hildana Shiferaw Selected for the McKinley Honors Fellowship Program</title><link href="/preview/pr-66/2024/04/28/hildana-mckinley-honors-fellowship.html" rel="alternate" type="text/html" title="Hildana Shiferaw Selected for the McKinley Honors Fellowship Program" /><published>2024-04-28T00:00:00+00:00</published><updated>2026-04-16T23:38:20+00:00</updated><id>/preview/pr-66/2024/04/28/hildana-mckinley-honors-fellowship</id><content type="html" xml:base="/preview/pr-66/2024/04/28/hildana-mckinley-honors-fellowship.html"><![CDATA[<!-- excerpt start -->
+<p>We are excited to share that Hildana Shiferaw has been selected as an Honors Fellow through the AEMES McKinley Fellowship Program!
+<!-- excerpt end --></p>
+
+<p>The fellowship will support Hildana’s honors thesis work in the VBIL during her senior year. More information about Smith’s AEMES programs is available <a href="https://www.smith.edu/academics/departments-programs-courses/aemes">here</a>.</p>]]></content><author><name>halie_rando</name></author><category term="honors" /><category term="fellowship" /><category term="McKinley" /><summary type="html"><![CDATA[We are excited to share that Hildana Shiferaw has been selected as an Honors Fellow through the AEMES McKinley Fellowship Program!]]></summary></entry><entry><title type="html">Students present at SAVY</title><link href="/preview/pr-66/2024/04/28/savy.html" rel="alternate" type="text/html" title="Students present at SAVY" /><published>2024-04-28T00:00:00+00:00</published><updated>2026-04-16T23:38:20+00:00</updated><id>/preview/pr-66/2024/04/28/savy</id><content type="html" xml:base="/preview/pr-66/2024/04/28/savy.html"><![CDATA[<!-- excerpt start -->
+<p>Last week, students attended the <a href="https://web.cvent.com/event/1992516f-03a6-42b4-a511-73f23a4ee1f6/summary">Symposium on Artificial Intelligence in Veterinary Medicine (SAVY)</a> at Cornell University.
+<!-- excerpt end --></p>
+
+<p>Sophomores Glenvelis Perez, Tana Liu, and Lizzie DelMonico presented a poster called “A Veterinary Informatics Perspective on the Dog Breed Identification Problem in Computer Vision”.</p>
+
+<div class="gallery">
+    
+      
+      
+      
+      
+
+      <figure class="figure gallery-item">
+        <a class="figure-image" aria-label="Glenvelis, Tana, and Lizzie presenting their poster">
+          <img src="/preview/pr-66/images/news/2024-04-28-savy/img-7222.jpeg" style="
+              width: 100%;
+              max-width: 100%;
+              max-height: unset;
+            " alt="Glenvelis, Tana, and Lizzie presenting their poster" loading="lazy" onerror="this.src = '/preview/pr-66/images/fallback.svg'; this.onerror = null;" />
+        </a>
+        
+      </figure>
+    
+      
+      
+      
+      
+
+      <figure class="figure gallery-item">
+        <a class="figure-image" aria-label="The students posing in front of the SAVY banner">
+          <img src="/preview/pr-66/images/news/2024-04-28-savy/img-7243.jpeg" style="
+              width: 100%;
+              max-width: 100%;
+              max-height: unset;
+            " alt="The students posing in front of the SAVY banner" loading="lazy" onerror="this.src = '/preview/pr-66/images/fallback.svg'; this.onerror = null;" />
+        </a>
+        
+      </figure>
+    
+  </div>]]></content><author><name>halie_rando</name></author><category term="conference" /><category term="SAVY" /><category term="poster" /><summary type="html"><![CDATA[Last week, students attended the Symposium on Artificial Intelligence in Veterinary Medicine (SAVY) at Cornell University.]]></summary></entry></feed>
