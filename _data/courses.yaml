@@ -3,7 +3,8 @@
   group: featured
   image: images/photo.jpg
   course_website: https://smithcsc230.github.io
-  distribution: Systems
+  distribution:
+    - Systems
   terms_offered:
     - Fall 2023
     - Spring 2025
@@ -16,7 +17,8 @@
   group: featured
   image: images/photo.jpg
   course_website: https://smithcsc210.github.io
-  distribution: Core Course
+  distribution:
+    - Core
   terms_offered:
     - Fall 2023
     - Spring 2024
@@ -31,7 +33,8 @@
   subtitle: CSC 334bd
   group: featured
   image: images/photo.jpg
-  distribution: Junior/Senior Seminar
+  distribution:
+    - Seminar
   terms_offered:
     - Spring 2024
     - Fall 2025
@@ -41,5 +44,7 @@
   subtitle: CSC 258
   group: featured
   image: images/photo.jpg
-  distribution: Theory & Programming
+  distribution:
+    - Theory
+    - Programming
   next_offered: Fall 2026

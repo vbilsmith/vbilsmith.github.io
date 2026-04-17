@@ -19,11 +19,23 @@
     </p>
   {% endif %}
 
-  {% if include.distribution %}
-    <p><strong>Distribution:</strong> {{ include.distribution }}</p>
+  {% assign teaching_link = "/teaching" | relative_url %}
+  {% assign distributions = include.distribution | default: empty %}
+  {% if distributions.size > 0 %}
+    <p><strong>Distribution:</strong></p>
+    <div class="tags">
+      {% for distribution in distributions %}
+        <a
+          href="{{ teaching_link }}?search=&quot;{{ distribution }}&quot;"
+          class="tag"
+          data-tooltip="Show {{ distribution }} courses"
+        >
+          {{ distribution }}
+        </a>
+      {% endfor %}
+    </div>
   {% endif %}
 
-  {% assign teaching_link = "/teaching" | relative_url %}
   {% if include.next_offered %}
     <p><strong>Next offering:</strong></p>
     <div class="tags">
