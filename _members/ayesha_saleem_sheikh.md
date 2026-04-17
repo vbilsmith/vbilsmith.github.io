@@ -1,6 +1,6 @@
 ---
 name: Ayesha Saleem Sheikh '28
-image: 
+image: images/ayesha.jpeg
 description: Undergraduate Researcher
 role: undergrad
 affiliations:
