@@ -3,6 +3,8 @@
   | first
   | default: include
 %}
+{% assign affiliations = member.affiliations | default: empty %}
+{% assign affiliations = affiliations | join: ", " %}
 
 <div class="portrait-wrapper">
   <a
@@ -11,6 +13,7 @@
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
+    data-search="{{ affiliations }}"
     aria-label="{{ member.name | default: "member link" }}"
   >
     <img

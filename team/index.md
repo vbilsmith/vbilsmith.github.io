@@ -9,6 +9,33 @@ nav:
 
 Below, learn about the current and past members of the VBIL. We are always open to working with new students! Please use the contact page to reach out.
 
+{% assign affiliation_filters = site.members
+  | map: "affiliations"
+  | join: ","
+  | split: ","
+  | array_filter
+  | uniq
+  | sort
+%}
+
+{% include search-box.html %}
+
+{% if affiliation_filters.size > 0 %}
+<div class="tags">
+  {% for affiliation in affiliation_filters %}
+    <a
+      href="{{ '/team' | relative_url }}?search=&quot;{{ affiliation }}&quot;"
+      class="tag"
+      data-tooltip="Show {{ affiliation }} members"
+    >
+      {{ affiliation }}
+    </a>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% include search-info.html %}
+
 {% include list.html data="members" component="portrait" filters="role: pi, group: " %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: " %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: " %}

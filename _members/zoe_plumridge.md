@@ -3,6 +3,8 @@ name: Zo&#235; Plumridge '26
 image: images/zoe_plumridge.jpeg
 description: Honors Thesis Student
 role: undergrad
+affiliations:
+  - Honors Thesis Student
 links:
   github: zrplumridge
 ---
