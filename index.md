@@ -54,31 +54,6 @@ Learn more about our research by browsing our publications.
 
 {% capture text %}
 
-Check back in the future for more information about specific lab projects.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/thumbnails/humanPCA.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
 Smith students of all years and many different majors are contributing to our ongoing research in bioinformatics, health AI, document engineering, and more.
 
 {%

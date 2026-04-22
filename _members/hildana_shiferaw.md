@@ -1,6 +1,6 @@
 ---
 name: Hildana Shiferaw '25
-image: images/hildana_shiferaw.jpg 
+image: images/headshots/hildana_shiferaw.png
 description: Honors Thesis Student & McKinley Fellow
 role: undergrad
 group: alum

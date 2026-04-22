@@ -1,6 +1,6 @@
 ---
 name: Chioma Opara '27
-image: images/chioma_opara.jpg
+image: images/headshots/chioma_opara.jpg
 description: Undergraduate Researcher
 role: undergrad
 group: former-ra

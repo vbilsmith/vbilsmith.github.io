@@ -1,6 +1,6 @@
 ---
 name: Hayley Ma '28
-image: images/Hayley_Ma.JPG
+image: images/headshots/Hayley_Ma.JPG
 description: Research Assistant
 role: undergrad
 affiliations:

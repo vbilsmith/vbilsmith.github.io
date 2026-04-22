@@ -1,18 +1,20 @@
 - id: doi:10.1111/jvim.70133
   type: journal paper
+  image: images/thumbnails/m_jvim70133-fig-0001.jpeg
   tags:
     - ontology
     - animals
     - domestication
 - id: doi:10.2460/ajvr.24.10.0315
   type: journal paper
+  image: images/thumbnails/full-ajvr.24.10.0315.figure1.jpg
   tags:
     - genetics
     - dogs
     - machine learning
 - id: doi:10.1093/jhered/esae022
   type: journal paper
-  image: images/jhered_2024_red_fox_map.jpeg
+  image: images/thumbnails/jhered_2024_red_fox_map.jpeg
   tags:
     - domestication
     - foxes

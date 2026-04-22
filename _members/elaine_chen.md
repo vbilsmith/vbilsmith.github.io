@@ -1,6 +1,6 @@
 ---
 name: Elaine Chen '26
-image: images/elaine_chen.png
+image: images/headshots/elaine_chen.png
 description: Undergraduate Researcher
 aliases:
   - Yilin Chen

@@ -1,6 +1,6 @@
 ---
 name: Yixuan He '26J
-image: images/yixuan_he.jpg
+image: images/headshots/yixuan_he.jpg
 description: Undergraduate Researcher
 role: undergrad
 group: alum
