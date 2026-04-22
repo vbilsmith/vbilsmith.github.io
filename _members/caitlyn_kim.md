@@ -1,6 +1,6 @@
 ---
 name: Caitlyn Kim '28
-image: images/caitlyn_kim.jpg
+image: images/headshots/caitlyn_kim.jpg
 description: Undergraduate Researcher
 role: undergrad
 ---

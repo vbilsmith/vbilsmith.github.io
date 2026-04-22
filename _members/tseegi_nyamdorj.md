@@ -1,6 +1,6 @@
 ---
 name: Tseegi Nyamdorj '25
-image: images/tseegi_nyamdorj.png
+image: images/headshots/tseegi_nyamdorj.png
 description: Undergraduate Researcher
 role: undergrad
 group: alum

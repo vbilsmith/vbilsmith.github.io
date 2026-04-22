@@ -1,6 +1,6 @@
 ---
 name: Tana Liu '26
-image: images/tana_liu.jpg
+image: images/headshots/tana_liu.jpg
 description: Undergraduate Researcher
 role: undergrad
 group: former-ra
