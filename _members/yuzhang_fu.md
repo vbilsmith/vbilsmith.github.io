@@ -1,6 +1,6 @@
 ---
 name: Yuzhang Fu '26J
-image: images/yuzhang_fu.jpeg
+image: images/headshots/yuzhang_fu.jpeg
 description: Postbac
 role: postbac
 aliases:

@@ -14,6 +14,8 @@ redirect_from:
 
 {% include search-box.html %}
 
+{% include tags.html tags=site.tags %}
+
 {% include search-info.html %}
 
 {% assign current_year = "" %}

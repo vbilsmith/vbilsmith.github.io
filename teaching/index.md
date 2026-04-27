@@ -13,8 +13,6 @@ Here is some information about the classes that Prof. Rando has taught at Smith.
 
 {% include search-box.html %}
 
-{% include tags.html tags=site.tags %}
-
 {% include search-info.html %}
 
 {% include list.html data="courses" component="course-excerpt" %}

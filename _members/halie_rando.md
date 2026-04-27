@@ -1,6 +1,6 @@
 ---
 name: Halie Rando
-image: images/halie_rando.jpg
+image: images/headshots/halie_rando.jpg
 role: pi
 aliases:
   - HM Rando
