@@ -23,6 +23,7 @@
   date: '2025-07-01'
   link: https://doi.org/hbwvfw
   type: journal paper
+  image: images/thumbnails/m_jvim70133-fig-0001.jpeg
   tags:
   - ontology
   - animals
@@ -43,6 +44,7 @@
   date: '2025-03-01'
   link: https://doi.org/g85s7s
   type: journal paper
+  image: images/thumbnails/full-ajvr.24.10.0315.figure1.jpg
   tags:
   - genetics
   - dogs
@@ -74,7 +76,7 @@
   date: '2024-04-16'
   link: https://doi.org/gtq55b
   type: journal paper
-  image: images/jhered_2024_red_fox_map.jpeg
+  image: images/thumbnails/jhered_2024_red_fox_map.jpeg
   tags:
   - domestication
   - foxes
